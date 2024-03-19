@@ -1,0 +1,6 @@
+CHEKEAR SI EN EL MAIN.PY TAMBIEN HAY QUE LEER EL BEA COMO LATIN1 O UTF-8 SI APARECEN <?> INTENTAR CON LATIN1 EN LUGAR DE UTF-8
+EL BEA NORMALIZADO ANDA BIEN CON UTF-8 PARA SER LEIDO. COnserva caracteres hasta en japones
+
+El i cuando se ejecuta el main podria dar cerca de 4823
+
+El i dio 9941. Osea 9941 registros duplicados

@@ -6,8 +6,10 @@
 
 NO DATA LOST ON NORMALIZATION
 
-23723 + 20343 = 44066 Total Records (BEA + DIMENSIONS)
+44066 =  Total Records (BEA + DIMENSIONS)
 
-39243 = BEA + (DIMENSIONS - BEA [80% Levenshtain])
+34092 = BEA + (DIMENSIONS - BEA [80% Levenshtain])
 
-44066 - 39243 = 4823 RECORDS DUPLICATED
+44066 - 34092 = 9974 RECORDS DUPLICATED
+
+Levenshtain 80% (i variable inside is_similar function): 9973, acceptable difference of 1 record
