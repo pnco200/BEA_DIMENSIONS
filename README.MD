@@ -1,0 +1,13 @@
+23723 Dimensions normalized
+23723 Dimensions Original
+
+20343 BEA Original
+20343 BEA Normalized
+
+NO DATA LOST ON NORMALIZATION
+
+23723 + 20343 = 44066 Total Records (BEA + DIMENSIONS)
+
+39243 = BEA + (DIMENSIONS - BEA [80% Levenshtain])
+
+44066 - 39243 = 4823 RECORDS DUPLICATED
