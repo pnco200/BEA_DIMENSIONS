@@ -5,8 +5,11 @@ import Levenshtein as lev
 beaPath = "./data/bea_normalized.csv"
 dimensionsPath = "./data/dimensions_normalized.csv"
 
+#I Use the normalized datasets for simplicity in the merging process
 bea_df = pd.read_csv(beaPath, encoding='latin1')
 dimensions_df = pd.read_csv(dimensionsPath, encoding='latin1')
+
+#I create the data frame with these values to avoid panda converting integers into floating point numbers
 merged_df = pd.DataFrame({
     'A': [1.0, 2.0, 3.0],
     'B': [4.0, float('nan'), 6.0],  # Contains NaN
@@ -15,18 +18,18 @@ merged_df = pd.DataFrame({
 
 #Function where i apply Levishtain distance for title similarity, default value is set to 80% similarity
 def is_similar(title1, title2, threshold=0.80):
-    distance = lev.distance(title1.lower(), title2.lower()) #To lowercase
+    distance = lev.distance(title1.lower(), title2.lower()) #Lowercas to avoid levenshtein case sensitivity swap
     max_length = max(len(title1), len(title2)) 
     similarity_ratio = 1 - distance / max_length
     if(similarity_ratio >= threshold):
         print(distance, " ", similarity_ratio, "\n", title1,"\n", title2)
     return similarity_ratio >= threshold
 
-# Get records that are only in DIMENSIONS
+# Get records that are only in normalized DIMENSIONS
 dimensions_only_df = dimensions_df[~dimensions_df['DIM_Title'].apply(lambda x: any(is_similar(x, title) for title in bea_df['BEA_title']))]
 
 
-#Merge normalized bea with the unique records of dimensions
+#Concatenate normalized bea with the unique records of normalized dimensions
 merged_df = pd.concat([bea_df, dimensions_only_df])
 
 
