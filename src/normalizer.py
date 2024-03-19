@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Load data
-bea_df = pd.read_csv('./data/BEA.csv', encoding='latin1')
-dimensions_df = pd.read_csv('./data/Dimensions.csv', encoding='latin1')
+bea_df = pd.read_csv('./data/BEA.csv', encoding='latin1') #Important to set the codec to latin1 to READ and utf-8 to WRITE for BEA
+dimensions_df = pd.read_csv('./data/Dimensions.csv', encoding='utf-8') 
 
 # Create new DataFrames with the desired column names and order
 bea_merged = pd.DataFrame(columns=[f'BEA_{col}' for col in bea_df.columns] + [f'DIM_{col}' for col in dimensions_df.columns])
@@ -22,5 +22,5 @@ for col in dimensions_df.columns:
     dimensions_merged.drop(columns=col, inplace=True)
 
 # Export the modified datasets
-bea_merged.to_csv('./data/bea_normalized.csv', index=False)
-dimensions_merged.to_csv('./data/dimensions_normalized.csv', index=False)
+bea_merged.to_csv('./data/bea_normalized.csv', index=False, encoding='utf-8')
+dimensions_merged.to_csv('./data/dimensions_normalized.csv', index=False , encoding='utf-8')
