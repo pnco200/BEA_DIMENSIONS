@@ -3,4 +3,2243 @@ EL BEA NORMALIZADO ANDA BIEN CON UTF-8 PARA SER LEIDO. COnserva caracteres hasta
 
 El i cuando se ejecuta el main podria dar cerca de 4823
 
-El i dio 9941. Osea 9941 registros duplicados
+El i dio 9972. Osea 9973 registros duplicados
+
+Me queda agregar de aquellos records que se encuentran en tanto dimension como en BEA (~9973), osea los que da positivo el levenshtain, agregarle los campos propios de dimension (_DIM) en la seccion de BEA
+
+
+Que sean el mismo año de publicacion y autores similares
+
+
+
+
+-------------------
+
+Cirriend ocon 80% para titulo y 20% para autor, quizas 24% es mejor para autor
+PRESTAR ATENCION A 152, 230, 101, 110, 204, 264
+
+A mayor porcentaje de precision, mas registros duplicados, pero menos perdida de registros
+A menor porcentaje de precision, menos registros duplicados, pero mayor perdida de registros
+
+
+
+
+------- 
+ 152
+ Chagas Disease
+ Chagas Disease. 0.9333333333333333
+ Tustin, Aaron W; Bowman, Natalie M
+ Buckner, F. S., A. C. Moore and M. S. Cetron. 0.2222222222222222
+ 2016
+ 2016
+ -------
+
+ ------- 
+ 155
+ Benznidazole for Chronic Chagas’ Cardiomyopathy
+ Benznidazole for chronic Chagas cardiomyopathy. 0.9574468085106383
+ Morillo, Carlos A; Marin-Neto, Jose A; Avezum, Alvaro
+ Hamers, R. L., T. van Gool, A. Goorhuis, M. A. S. Cordeiro, Julio A. Urbina, J. Gascon, I. Ribeiro, C. A. Morillo, J. A. Marin-Neto and A. Avezum. 0.20547945205479456
+ 2016
+ 2016
+ -------
+
+
+ ------- 
+ 264
+ Chagas Disease.
+ Chagas Disease. 1.0
+ Hochberg, Natasha S; Montgomery, Susan P
+ Nguyen, T. and M. Waseem. 0.22499999999999998
+ 2023
+ 2023
+ -------
+
+ ------------------------------------------------
+
+ ------- 
+ 78
+ A three-dimensional multi-agent-based model for the evolution of Chagas’ disease
+ A three-dimensional multi-agent-based model for the evolution of Chagas´ disease. 0.9753086419753086
+ Galvão, Viviane; Miranda, José Garcia Vivas
+ Galvao, V. and J. Garcia Vivas Miranda, J. G. V. 0.33333333333333337
+ 2010
+ 2010
+ -------
+
+------- 
+ 79
+ The Amazon II: Leishmaniasis and Chagas Diseases
+ The Amazon II: Leishmaniasis and Chagas Diseases. 0.9795918367346939
+ Estani, S. Sosa
+ Sosa Estani, S. 0.33333333333333337
+ 2010
+ 2010
+ -------
+
+------- 
+ 80
+ Surveillance of Chagas disease vectors in municipalities of the state of Ceará, Brazil
+ Surveillance of Chagas disease vectors in municipalities of the state of Ceará, Brazil. 0.9885057471264368
+ Gonçalves, Teresa Cristina Monte; Freitas, Assilon Lindoval Carneiro; Freitas, Simone Patrícia Carneiro
+ Monte Gonçalves, T. C., A. L. Carneiro Freitas and S. P. Carneiro Freitas. 0.3495145631067961
+ 2009
+ 2009
+ -------
+
+------- 
+ 81
+ Chagas disease.
+ Chagas Disease. 1.0
+ Ambroise-Thomas, P
+ Centers for Disease Control and Prevention (CDC). 0.20408163265306123
+ 2009
+ 2009
+ -------
+
+------- 
+ 82
+ Chagas Disease
+ Chagas Disease. 0.9333333333333333
+ Paixão, Leonardo C.; Ribeiro, Antonio L.; Valacio, Reginaldo A.; Teixeira, Antonio L.
+ Centers for Disease Control and Prevention (CDC). 0.22352941176470587
+ 2009
+ 2009
+ -------
+
+------- 
+ 83
+ Avaliação dos níveis de parasitemia por PCR em tempo real em pacientes com doença de Chagas crônica e pacientes com co-infecção HIV - Trypanosoma cruzi, com e sem reativação da doença de Chagas
+ Avaliacao dos níveis de parasitemia por PCR em tempo real em pacientes com doenca de Chagas cronica e pacientes com co-infeccao HIV - Trypanosoma cruzi, com e sem reativacao da doenca de Chagas. 0.9484536082474226
+ de Freitas, Véra Lucia Teixeira
+ Teixeira de Freitas, V. L. 0.22580645161290325
+ 2009
+ 2009
+ -------
+
+------- 
+ 84
+ Como as ações de saúde pensam o homem e como o homem as repensa: uma análise antropológica do controle da doença de Chagas
+ Como as acoes de saúde pensam o homem e como o homem as repensa: uma análise antropologica do controle da doenca de Chagas. 0.959349593495935
+ Magnani, Claudia; Dias, João Carlos Pinto; Gontijo, Eliane Dias
+ MagnaniI, C., J. C. Pinto DiasII e E. Dias Gontijo. 0.3492063492063492
+ 2009
+ 2009
+ -------
+
+------- 
+ 85
+ Seroprevalence of Trypanosoma cruzi among Teenek Amerindian residents of the Huasteca region in San Luis Potosi, Mexico.
+ Short Report: Seroprevalence of Trypanosoma cruzi Among Teenek Amerindian Residents of the Huasteca Region in San Luis Potosi, Mexico. 0.8955223880597015
+ Juarez-Tobias, Soledad; Vaughan, Gilberto; Torres-Montoya, Aida; Escobar-Gutierrez, Alejandro
+ Juarez-Tobias, S. and G. Vaughan. 0.27956989247311825
+ 2009
+ 2009
+ -------
+
+------- 
+ 86
+ Epidemiology, control and surveillance of Chagas disease: 100 years after its discovery
+ Epidemiology, control and surveillance of Chagas disease - 100 years after its discovery. 0.9662921348314607
+ Coura, José Rodrigues; Dias, João Carlos Pinto
+ Rodrigues Coura, J., and J. C. Pinto Dias. 0.28260869565217395
+ 2009
+ 2009
+ -------
+
+------- 
+ 87
+ A century of research: what have we learned about the interaction of Trypanosoma cruzi with host cells?
+ A century of research: what have we learned about the interaction of Trypanosoma cruzi with host cells?. 0.9903846153846154
+ Alves, Maria Julia Manso; Mortara, Renato Arruda
+ Manso Alves, M. J. and R. Arruda Mortara. 0.27083333333333337
+ 2009
+ 2009
+ -------
+
+------- 
+ 88
+ The BENEFIT trial: testing the hypothesis that trypanocidal therapy is beneficial for patients with chronic Chagas heart disease
+ The BENEFIT trial: testing the hypothesis that trypanocidal therapy is beneficial for patients with chronic Chagas heart disease. 0.9922480620155039
+ Marin-Neto, J Antonio; Rassi, Anis; Avezum, Alvaro; Mattos, Antonio C; Rassi, Anis; Morillo, Carlos A; Sosa-Estani, Sergio; Yusuf, Salim
+ Marin-Neto, J. A., A. Rassi Jr, A. Avezum Jr, A. C. Mattos and A. Rassi. 0.34558823529411764
+ 2009
+ 2009
+ -------
+
+------- 
+ 89
+ Current status and perspectives of cell therapy in Chagas disease
+ Current status and perspectives of cell therapy in Chagas disease. 0.9848484848484849
+ Soares, Milena Botelho Pereira; dos Santos, Ricardo Ribeiro
+ Pereira Soares, M. B. and R. Ribeiro dos Santos. 0.288135593220339
+ 2009
+ 2009
+ -------
+
+------- 
+ 90
+ Structural organization of Trypanosoma cruzi
+ Structural organization of Trypanosoma cruzi. 0.9777777777777777
+ Souza, Wanderley de
+ de Souza, W. 0.26315789473684215
+ 2009
+ 2009
+ -------
+
+------- 
+ 91
+ Present situation and new strategies for Chagas disease chemotherapy: a proposal
+ Present Situation and New Strategies for Chagas Disease Chemotherapy - a proposal. 0.9634146341463414
+ Coura, José Rodrigues
+ Rodrigues Coura, J. 0.2857142857142857
+ 2009
+ 2009
+ -------
+
+------- 
+ 92
+ Central nervous system involvement in Chagas disease: a hundred-year-old history.
+ Central nervous system involvement in Chagas disease: a hundred-year-old history. 1.0
+ Pittella, José Eymard Homem
+ Homem Pittella, J. E. 0.2592592592592593
+ 2009
+ 2009
+ -------
+
+------- 
+ 93
+ Chagas disease 100 years after its discovery
+ Chagas disease 100 years after its discovery. 0.9777777777777777
+ Igreja, Ricardo Pereira
+ Pereira Igreja, R. 0.26086956521739135
+ 2009
+ 2009
+ -------
+
+------- 
+ 94
+ Reassessing the entomological investigation around the first autochthonous case of Chagas disease in Western Brazilian Amazon
+ Reassessing the Entomological Investigation around the first Autochthonous Case of Chagas Disease in Western Brazilian Amazon. 0.9920634920634921
+ Fé, Nelson Ferreira; França, Menabarreto Segadilha; Carvalho-Costa, Filipe Anibal
+ Ferreira Fé, N., M. Segadilha França and F. A. Carvalho-Costa. 0.32098765432098764
+ 2009
+ 2009
+ -------
+
+------- 
+ 95
+ Enfermedad de Chagas. Prevención de la infección en el recién nacido
+ Enfermedad de Chagas. Prevención de la infección en el recién nacido. 0.9855072463768116
+ González-Tomé, María Isabel; Rojo, Pablo; flores-chávez, María; de Infectología Pediátrica, En Colaboración con la Sociedad
+ González-Tomé, M. I., P. Rojo and M. Flores-Chávez. 0.3089430894308943
+ 2008
+ 2008
+ -------
+
+------- 
+ 96
+ Meningoencephalitis in a patient with acute Chagas disease in the Brazilian Amazon
+ Meningoencephalitis in a patient with acute Chagas disease in the Brazilian Amazon. 0.9879518072289156
+ de Medeiros, Maurício Borborema; de Oliveira Guerra, Jorge Augusto; de Lacerda, Marcus Vinícius Guimarães
+ Borborema de Medeiros, M., J. A. de Oliveira Guerra and M. V. Guimaraes de Lacerda. 0.34285714285714286
+ 2008
+ 2008
+ -------
+
+------- 
+ 97
+ NADH desidrogenase mitocondrial de Trypanosoma cruzi: subunidade 7 para diagnóstico diferencial de isolados humanos e análise funcional.
+ NADH desidrogenase mitocondrial de Trypanosoma cruzi: subunidade 7 para diagnóstico diferencial de isolados humanos e análise funcional. 1.0
+ Martinez, Julio César Carranza
+ Carranza Martinez, J. C. 0.23333333333333328
+ 2008
+ 2008
+ -------
+
+------- 
+ 98
+ Response of the esophageal body to wet and dry swallows in Chagas' disease
+ Response of the esophageal body to wet and dry swallows in Chagas disease. 0.972972972972973
+ Dantas, Roberto Oliveira; Aprile, Lilian Rose Otoboni
+ Oliveira Dantas, R. and L. R. Otoboni Aprile. 0.2264150943396226
+ 2008
+ 2008
+ -------
+
+------- 
+ 99
+ Emmanuel Dias and Trypanosoma cruzi discovery: two centenaries to celebrate - Editorial
+ Emmanuel Dias and Trypanosoma cruzi discovery: two centenaries to celebrate. 0.8620689655172413
+ Dias, João Carlos Pinto; Coura, José Rodrigues
+ Pinto Dias, J. C. and J. Rodrigues Coura. 0.23913043478260865
+ 2008
+ 2008
+ -------
+
+------- 
+ 100
+ Absence of experimental cross-protection induced by a Trypanosoma cruzi-like strain isolated from bats
+ Absence of experimental cross-protection induced by a Trypanosoma cruzi-like strain isolated from bats. 0.9902912621359223
+ Nascentes, Gabriel Antonio Nogueira; Meira, Wendell Sérgio Ferreira; Lages-Silva, Eliane; Ramírez, Luis Eduardo
+ Nogueira Nascentes, G. A., W. S. Ferreira Meira, E. Lages-Silva and L. E. Ramírez. 0.3423423423423423
+ 2008
+ 2008
+ -------
+
+------- 
+ 101
+ Organ Transplantation and Chagas Disease—Reply
+ Organ transplantation and Chagas disease. 0.8695652173913043
+ Bern, Caryn; Moore, Anne; Rassi, Anis; Marin-Neto, Jose Antonio; Maguire, James H.
+ Altclas, J. D., L. Barcan, C. Nagel, R. Lattes and A. Riarte. 0.23170731707317072
+ 2008
+ 2008
+ -------
+
+------- 
+ 102
+ Reactivation of Trypanosoma cruzi infection in immunosuppressed patients: contributions for the laboratorial diagnosis standardization
+ Reactivation of Trypanosoma cruzi infection in immunosuppressed patients: contributions for the laboratorial diagnosis standardization. 0.9925925925925926
+ Braz, Lúcia Maria Almeida; Neto, Vicente Amato; Okay, Thelma Suely
+ Almeida Braz, L. M., V. Amato Neto and T. S. Okay. 0.28787878787878785
+ 2008
+ 2008
+ -------
+
+------- 
+ 103
+ Trypanosoma cruzi: Effects of social stress in Calomys callosus a natural reservoir of infection
+ Trypanosoma cruzi: Effects of social stress in Calomys callosus a natural reservoir of infection. 0.9896907216494846
+ Santos, Carla Domingues; Toldo, Míriam Paula Alonso; Levy, Antônio Marcos Aparecida; Prado, José Clóvis
+ Domingues Santos, C., M. P. A. Toldo, A. M. A. Levy and J. C. Prado Junior. 0.3106796116504854
+ 2008
+ 2008
+ -------
+
+------- 
+ 104
+ Sobre uma pintura inseticida para o controle de Triatoma infestans, na Bolívia
+ Sobre uma pintura inseticida para o controle de Triatoma infestans, na Bolívia. 0.9873417721518988
+ Dias, João Carlos Pinto; Jemmio, A.
+ Pinto Dias, J. C. and A. Jemmio. 0.34285714285714286
+ 2008
+ 2008
+ -------
+
+------- 
+ 105
+ Participação de Carlos Chagas e seus colaboradores no conhecimento e reconhecimento do megaesôfago de etiologia chagásica
+ Participacao de Carlos Chagas e seus colaboradores no conhecimento e reconhecimento do megaesofago de etiologia chagásica. 0.9672131147540983
+ Dias, Carlos Pinto; Rezende, Joffre Marcondes
+ Pinto Dias, J. C. e J. Marcondes de Rezende. 0.24444444444444446
+ 2007
+ 2007
+ -------
+
+------- 
+ 106
+ Chagas disease: what is known and what is needed - A background article
+ Chagas disease: what is known and what is needed-A background article. 0.9577464788732395
+ Coura, José Rodrigues
+ Rodrigues Coura, J. 0.2857142857142857
+ 2007
+ 2007
+ -------
+
+------- 
+ 107
+ Working group: social, epidemiological, and control determinants of Chagas disease in American Southern Cone
+ Working group: social, epidemiological, and control determinants of Chagas disease in American Southern Cone. 0.9908256880733946
+ de Arias, Antonieta Rojas; Dias, João Carlos Pinto
+ Rojas de Arias, A. and J. C. Pinto Dias. 0.28
+ 2007
+ 2007
+ -------
+
+------- 
+ 108
+ Distribuição geográfica e indicadores entomológicos de triatomíneos sinantrópicos capturados no Estado de Goiás
+ Distribuicao geográfica e indicadores entomológicos de triatomíneos sinantrópicos capturados no Estado de Goiás. 0.9732142857142857
+ de Oliveira, Antônio Wilson Soares; da Silva, Ionizete Garcia
+ Soares de Oliveira, A.W., e I. Garcia da Silva. 0.34426229508196726
+ 2007
+ 2007
+ -------
+
+------- 
+ 109
+ Diagnóstico, manejo y tratamiento de la cardiopatía chagásica crónica en áreas donde la infección por Trypanosoma cruzi no es endémica
+ Diagnóstico, manejo y tratamiento de la cardiopatía chagásica crónica en áreas donde la infección por Trypanosoma cruzi no es endémica. 0.9925925925925926
+ Gascón, Joaquim; Albajar, Pedro; Cañas, Elías; Flores, María; Prat, Jordi Gómez i; Herrera, Ramón N.; Lafuente, Carlos A.; Luciardi, Héctor L.; Moncayo, Álvaro; Molina, Lluís; Muñoz, José; Puente, Sabino; Sanz, Ginés; Treviño, Begoña; Sergio-Salles, Xavier; reto      de Trabajo de importada, un nuevo  de Salud Pública». Documento de consenso  de Salud Pública». Documento de consenso de la Sociedad Española de Medicina Tropical y Salud Internacional Grupo de  de Salud Pública». Documento de consenso  de Salud Pública». Documento de consenso de la Sociedad Española de Medicina Tropical y Salud Internacional Grupo de Trabajo del II Taller «Enfermedad de Chagas
+ Gascón, J., P. Albajar, E. Cañas, M. Flores, J. Gómez i Prat, R. N. Herrera, C. A. Lafuente, H. L. Luciardi, A. Moncayo, L. Molina, J. Muñoz, S. Puente, G. Sanz, B. Treviño y X. Sergio-Salles. 0.22406015037593985
+ 2007
+ 2007
+ -------
+
+------- 
+ 110
+ Migração interna e a distribuição da mortalidade por doença de Chagas, Brasil, 1981/1998
+ Migração interna e a distribuição da mortalidade por doença de Chagas, Brasil, 1981/1998. 0.9887640449438202
+ Drumond, João Augusto Guimarães; Marcopito, Luiz Francisco
+ Guimarães Drumond, J. A. e L. F. Marcopito. 0.22413793103448276
+ 2006
+ 2006
+ -------
+
+------- 
+ 111
+ Calidad de la evidencia científica: un reflejo del estado actual de la Enfermedad de Chagas
+ Calidad de la evidencia científica: un reflejo del estado actual de la Enfermedad de Chagas. 0.9891304347826086
+ Buendía Rodríguez; MD MSC, Jefferson Antonio
+ Rodríguez., J. A. B. 0.31818181818181823
+ 2006
+ 2006
+ -------
+
+------- 
+ 112
+ Induction of cardiac autoimmunity in Chagas heart disease: A case for molecular mimicry
+ Induction of cardiac autoimmunity in Chagas heart disease: a case for molecular mimicry. 0.9886363636363636
+ Cunha-Neto, Edecio; Bilate, Angelina M.; Hyland, Kenneth V.; Fonseca, Simone G.; Kalil, Jorge; Engman, David M.; Cunha-Neto, Edecio; Bilate, Angelina M.; Hyland, Kenneth V.; Fonseca, Simone G.; Kalil, Jorge; Engman, David M.
+ Cunha-Neto, E., A. M. Bilate, K. V. Hyland, S. G. Fonseca, J. Kalil and D. M. Engman. 0.3035714285714286
+ 2006
+ 2006
+ -------
+
+------- 
+ 113
+ Current status and future prospects for a vaccine against American trypanosomiasis
+ Current status and future prospects for a vaccine against American trypanosomiasis. 0.9879518072289156
+ Garg, Nisha; Bhatia, Vandanajay
+ Bathia, V. and N. Garg. 0.22580645161290325
+ 2005
+ 2005
+ -------
+
+------- 
+ 114
+ Two Hybridization Events Define the Population Structure of Trypanosoma cruzi
+ Two Hybridization Events Define the Population Structure of Trypanosoma cruzi. 0.9871794871794872
+ Westenberger, Scott J; Barnabé, Christian; Campbell, David A; Sturm, Nancy R
+ Westenberger, S. J. 0.22077922077922074
+ 2005
+ 2005
+ -------
+
+------- 
+ 115
+ Electrogastrography in Patients with Chagas' Disease
+ Electrogastrography in Patients with Chagas Disease. 0.9615384615384616
+ Filho, Joffre Rezende; De Rezende, Joffre Marcondes; Melo, José Renan Da Cunha
+ Rezende Filho, J., J. M. De Rezende and J. R. Da Cunha Melo. 0.2948717948717948
+ 2005
+ 2005
+ -------
+
+------- 
+ 116
+ Trypanosoma cruzi: The effects of dehydroepiandrosterone (DHEA) treatment during experimental infection
+ Trypanosoma cruzi: The effects of dehydroepiandrosterone (DHEA) treatment during experimental infection. 0.9903846153846154
+ dos Santos, Carla Domingues; Toldo, Míriam Paula Alonso; do Prado Júnior, José Clóvis
+ Domingues dos Santos, C., M. P. Alonso Toldo and J. C. do Prado Júnior. 0.3411764705882353
+ 2005
+ 2005
+ -------
+
+------- 
+ 117
+ The Genome Sequence of Trypanosoma cruzi, Etiologic Agent of Chagas Disease
+ The genome sequence of Trypanosoma cruzi, etiologic agent of Chagas disease. 0.9868421052631579
+ El-Sayed, Najib M.; Myler, Peter J.; Bartholomeu, Daniella C.; Nilsson, Daniel; Aggarwal, Gautam; Tran, Anh-Nhi; Ghedin, Elodie; Worthey, Elizabeth A.; Delcher, Arthur L.; Blandin, Gaëlle; Westenberger, Scott J.; Caler, Elisabet; Cerqueira, Gustavo C.; Branche, Carole; Haas, Brian; Anupama, Atashi; Arner, Erik; Åslund, Lena; Attipoe, Philip; Bontempi, Esteban;   Bringaud, Frédéric; Burton, Peter; Cadag, Eithon; Campbell, David A.; Carrington, Mark; Crabtree, Jonathan; Darban, Hamid; da Silveira, Jose Franco; de Jong, Pieter; Edwards, Kimber rly; Englund, Paul T.; Fazelina, Gholam; Feldblyum, Tamara; Ferella, Marcela; Frasch, Alberto Carlos; Gull, Keith; Horn, David; Hou, Lihua; Huang, Yiting; Kindlund, Ellen; Klingbeil, Michele; Kluge, Sindy; Koo, Hean; Lacerda, Daniela; Levin, Mariano J.; Lorenzi, Hernan; Louie, Tin; Machado, Carlos Renato; McCulloch, Richard; McKenna, Alan; Mizuno, Yumi; Mottram, Jeremy C.; Nelson, Siri; Ochaya, Stephen; Osoegawa, Kazutoyo; Pai, Grace; Parsons, Marilyn; Pentony, Martin; Pettersson, Ulf; Pop, Mihai; Ramirez, Jose Luis; Rinta, Joel; Robertson, Laura; Salzberg, Steven L.; Sanchez, Daniel O.; Seyler, Amber; Sharma, Reuben; Shetty, Jyoti; Simpson, Anjana J.; Sisk, Ellen; Tammi, Martti T.; Tarleton, Rick; Teixeira, Santuza; Van Aken, Susan; Vogt, Christy; Ward, Pauline N.; Wickstead, Bill; Wortman, Jennifer; White, Owen; Fraser, Claire M.; Stuart, Kenneth D.; Andersson, Björn
+ El-Sayed, N. M., P. J. Myler, D. C. Bartholomeu, D. Nilsson, G. Aggarwal, A. Tran, E. Ghedin, E. A. Worthey, A. L. Delcher, G. Blandin, S. J. Westenberger, E. Caler, G. C. Cerqueira, C. Branche, B. Haas, A. Anupama, E. Arner, L. Aslund, P. Attipoe, E. Bontempi, F. Bringaud, P. Burton, E. Cadag, D. A. Campbell, M. Carrington, J. Crabtree, H. Darban, J. F. da Silveira, P. de Jong, K. Edwards, P. T. Englund, G. Fazelina, T. Feldblyum, M. Ferella, A. C. Frasch, K. Gull, D. Horn, L. Hou, Y. Huang, E. 0.2897130860741778
+ 2005
+ 2005
+ -------
+
+------- 
+ 118
+ Peculiar Aspects of Cardiogenic Embolism in Patients with Chagas’ Cardiomyopathy: A Transthoracic and Transesophageal Echocardiographic Study
+ Peculiar aspects of cardiogenic embolism in patients with Chagas cardiomyopathy: a transthoracic and transesophageal echocardiographic study. 0.9858156028368794
+ do Carmo P. Nunes, Maria; Barbosa, Márcia M.; Rocha, Manoel Otávio C.
+ Nunes, M. C. P., M. M. Barbosa and M. O. C. Rocha. 0.33333333333333337
+ 2005
+ 2005
+ -------
+
+------- 
+ 119
+ Chagas disease and anticardiolipin antibodies in older adults
+ Chagas disease and anticardiolipin antibodies in older adults. 0.9838709677419355
+ de Godoy, Maria Regina Pereira; Cação, João Castilho; de Godoy, José Maria Pereira; Brandão, Antonio Carlos; Souza, Dorotéia Silva Rossi
+ Pereira de Godoy, M. R., J. C. Cacao, J. M. Pereira de Godoy, A. C. Brandao and D. S. Rossi Souza. 0.34558823529411764
+ 2005
+ 2005
+ -------
+
+------- 
+ 120
+ High Prevalence of Congenital Trypanosoma cruzi Infection and Family Clustering in Salta, Argentina
+ High prevalence of congenital Trypanosoma cruzi infection and family clustering in Salta, Argentina. 0.99
+ Negrette, Olga Sánchez; Mora, María Celia; Basombrío, Miguel Ángel
+ Sanchez-Negrette, O., M. C. Mora and M. A. Basombrio. 0.3484848484848485
+ 2005
+ 2005
+ -------
+
+------- 
+ 121
+ Effect of glycoinositolphospholipids on the growth and differentiation of Trypanosoma cruzi subpopulations
+ Effect of glycoinositolphospholipids on the growth and differentiation of Trypanosoma cruzi subpopulations. 0.9906542056074766
+ Carreira, Joo Carlos Araujo; Thomaz, Neide; Mello, Cicero Brasileiro
+ Araujo Carreira, J. C., N. Thomaz and C. Brasileiro Mello. 0.32352941176470584
+ 2005
+ 2005
+ -------
+
+------- 
+ 122
+ Eritema nodoso como forma de reativação da doença de Chagas em transplantado cardíaco
+ Eritema nodoso como forma de reativacao da doenca de Chagas em transplantado cardíaco. 0.9534883720930233
+ d'Ávila, Solange Corrêa Garcia Pires; d'Ávila, Antônio Miguel Morena Pires; Pagliari, Carla; Gonçalves, Verônica M.; Duarte, Maria Irma Seixas
+ Pires dAvila, S. C. G., A. M. M. Pires dAvila, C. Pagliari, V. M. Goncalves e M. I. S. Duarte. 0.34507042253521125
+ 2005
+ 2005
+ -------
+
+------- 
+ 123
+ A mass collection of Triatoma ryckmani (Hemiptera: Reduviidae) from Stenocereus Eichlamii (Cactaceae) in the semiarid region of Guatemala.
+ A mass collection of Triatoma ryckmani (Hemiptera:Reduviidae) from Stenocereus eichlamii (Cactaceae)in the semiarid region of Guatemala. 0.9855072463768116
+ Marroquín, Ricardo; Bor, Silvia; Monroy, M Carlota
+ Marroquin, R. M., S. A. Bor and M. C. E. Monroy. 0.33999999999999997
+ 2004
+ 2004
+ -------
+
+------- 
+ 124
+ Detection of entomopathogenic fungi in peridomestic triatomine-infested areas in central Brazil and fungal activity against Triatoma infestans (Klug) (Hemiptera: Reduviidae)
+ Detection of Entomopathogenic Fungi in Peridomestic Triatomine-Infested Areas in Central Brazil and Fungal Activity Against Triatoma infestans (Klug) (Hemiptera: Reduviidae). 0.9942528735632183
+ Luz, Christian; Rocha, Luiz F.N.; Nery, Gustavo V.
+ Luz, C., L. F. Nunes Rocha and G. V. Nery. 0.33999999999999997
+ 2004
+ 2004
+ -------
+
+------- 
+ 125
+ Pathogenicity of Evlachovaea sp (Hyphomycetes), a new species isolated from Triatoma sordida, in Chagas' disease vectors
+ Pathogenicity of Evlachovaea sp (Hyphomycetes), a new species isolated from Triatoma sordida, in Chagas? disease vectors. 0.9834710743801653
+ Luz, Christian; Rocha, Luiz Fernando Nunes; Silva, Ionizete Garcia
+ Luz, C., L. F. Nunes Rocha and I. Garcia Silva. 0.31818181818181823
+ 2004
+ 2004
+ -------
+
+------- 
+ 126
+ Levosimendan treatment for acutely decompensated heart failure is as effective for Chagas disease patients as for patients with other etiologies
+ Levosimendan treatment for acutely decompensated heart failure is as effective for Chagas disease patients as for patients with other etiologies. 0.993103448275862
+ Pereira-Barretto, AC; Rassi, S; Vilas-Boas, F; Ribeiro, JP; Albuquerque, DC; Lage, SG; Baima, J; Bocchi, E; the Brazilian Evaluation of Levosimendan Infusion Efficacy (BELIEF) study investigators
+ Barretto, A. C. P., S. Rassi, F. Vilas-Boas, J. P. Ribeiro, D. C. Albuquerque, S. G. Lage and J. Baima. 0.29230769230769227
+ 2003
+ 2003
+ -------
+
+------- 
+ 127
+ Trypanosoma cruzi clonal diversity and the epidemiology of Chagas’ disease
+ Trypanosoma cruzi clonal diversity and the epidemiology of Chagas disease. 0.972972972972973
+ Buscaglia, Carlos A.; Di Noia, Javier M.
+ Buscaglia, C. 0.32499999999999996
+ 2003
+ 2003
+ -------
+
+------- 
+ 128
+ Molecular phylogeography of the Amazonian Chagas disease vectors Rhodnius prolixus and R. robustus
+ Molecular phylogeography of the Amazonian Chagas disease vectors Rhodnius prolixus and R. robustus. 0.98989898989899
+ Monteiro, Fernando A.; Barrett, Toby V.; Fitzpatrick, Sinead; Cordon‐Rosales, Celia; Feliciangeli, Dora; Beard, Charles B.
+ Monteiro, F. A. and C. B. Beard. 0.23770491803278693
+ 2003
+ 2003
+ -------
+
+------- 
+ 129
+ Changes in nuclear phenotype frequencies following sequential cold shocks in Triatoma infestans (Hemiptera, Reduviidae)
+ Changes in Nuclear Phenotype Frequencies Following Sequential Cold Shocks in Triatoma infestans (Hemiptera, Reduviidae). 0.9916666666666667
+ Campos, Silvana GP; Rodrigues, Vera Lúcia CC; Mello, Maria Luiza S
+ Campos, S. G. P., V. Lúcia, C. C. Rodrigues and M. L. S. Mello. 0.25757575757575757
+ 2002
+ 2002
+ -------
+
+------- 
+ 130
+ Prevalence of Cardiac Arrhythmias During and After Pregnancy in Women with Chagas' Disease without Apparent Heart Disease
+ Prevalence of Cardiac Arrhythmias During and After Pregnancy in Women with Chagas Disease without Apparent Heart Disease. 0.9834710743801653
+ Achá, Renato Enrique Sologuren; Rezende, Marco Túlio Oliveira; Heredia, Rimmel Amador Guzmán; da Silva, Aguinaldo Coelho; Rezende, Elmiro Santos; Souza, Cleber Augusto Oliveira      
+ Sologuren Achá, R. E., M. T. Oliveira Rezende, R. A. Guzmán Heredia, A. Coelho da Silva, E. S. Rezende and C. A. Oliveira Souza. 0.34090909090909094
+ 2002
+ 2002
+ -------
+
+------- 
+ 131
+ Effect of Sequential Cold Shocks on Survival and Molting Rate in Triatoma infestans Klug
+ Effect of Sequential Cold Shocks on Survival and Molting Rate in Triatoma infestans Klug. 0.9887640449438202
+ Campos, Silvana GP; Rodrigues, Vera Lúcia CC; Wada, CY; Mello, Maria Luiza S
+ Campos, S. G. P., V. L. C. C. Rodrigues, C. Y. Wada and M. L. S. Mello. 0.3421052631578947
+ 2002
+ 2002
+ -------
+
+------- 
+ 132
+ Two main clusters within Trypanosoma cruzi zymodeme 3 are defined by distinct regions of the ribosomal RNA cistron
+ Two main clusters within Trypanosoma cruzi zymodeme 3 are defined by distinct regions of the ribosomal RNA cistron. 0.991304347826087
+ MENDONÇA, M. B. A.; NEHME, N. S.; SANTOS, S. S.; CUPOLILLO, E.; VARGAS, N.; JUNQUEIRA, A.; NAIFF, R. D.; BARRETT, T. V.; COURA, J. R.; ZINGALES, B.; FERNANDES, O.
+ Mendonca, M. B. A., N. S. Nehme, S. S. Santos and E. Cupolillo. 0.30246913580246915
+ 2002
+ 2002
+ -------
+
+------- 
+ 133
+ A Critical Review on Chagas Disease Chemotherapy
+ A Critical Review on Chagas Disease Chemotherapy. 0.9795918367346939
+ Coura, José Rodrigues; de Castro, Solange L
+ Rodrigues Coura, J. and S. L. de Castro. 0.2325581395348837
+ 2002
+ 2002
+ -------
+
+------- 
+ 134
+ Os diferentes significados da certificação conferida ao Brasil como estando livre da doença de Chagas
+ Os diferentes significados da certificacao conferida ao Brasil como estando livre da doenca de Chagas. 0.9607843137254902
+ Ramos, Alberto N.; de Carvalho, Diana Maul
+ Ramos Jr., A. N. and D. M. do Carvalho. 0.30952380952380953
+ 2001
+ 2001
+ -------
+
+------- 
+ 135
+ Trypanosoma cruzi parasitemia observed in immunocompromised patients: the importance of the artificial xenodiagnosis
+ Trypanosoma cruzi Parasitemia Observed in Immunocompromised Patients: The Importance of the Artificial Xenodiagnosis. 0.9914529914529915
+ BRAZ, Lúcia Maria Almeida; NETO, Vicente AMATO; CARIGNANI, Fábio Luiz; de MARCHI, Cláudia Regina
+ Almeida Braz, L. M., V. Amato Neto, F. L. Carignani and C. R. De Marchi. 0.34375
+ 2001
+ 2001
+ -------
+
+------- 
+ 136
+ Interrupting Chagas disease transmission in Venezuela
+ Interrupting chagas disease transmissionin Venezuela. 0.9622641509433962
+ Alberto, ACHÉ; MATOS, Alí J.
+ Ache, A. and A. J. Matos. 0.2857142857142857
+ 2001
+ 2001
+ -------
+
+------- 
+ 137
+ Trypanosoma cruzi: Peripheral Blood Monocytes and Heart Macrophages in the Resistance to Acute Experimental Infection in Rats
+ Trypanosoma cruzi: Peripheral Blood Monocytes and Heart Macrophages in the Resistance to Acute Experimental Infection in Rats. 0.9920634920634921
+ Melo, Rossana C.N; Machado, Conceição R.S
+ Melo, R. C. N. and C. R. S. Machado. 0.3414634146341463
+ 2001
+ 2001
+ -------
+
+------- 
+ 138
+ Tattoos as risk factors for transfusion-transmitted diseases
+ Tattoos as risk factors for transfusion-transmitted diseases. 0.9836065573770492
+ de A. Nishioka, Sérgio; Gyorkos, Theresa W.
+ Nishioka, S. de A. and T. W. Gyorkos. 0.3023255813953488
+ 2001
+ 2001
+ -------
+
+------- 
+ 139
+ La Certificacin del Corte de Transmisin Vectorial del Trypanosoma cruzi, agente etiolgico de la enfermedad de Chagas
+ La certificación del corte de transmisión vectorial del Trypanosoma cruzi, agente etiológico de la enfermedad de Chagas. 0.9666666666666667
+ de Arias, Antonieta Rojas
+ Rojas de Arias, A. 0.24
+ 2016
+ 2016
+ -------
+
+------- 
+ 140
+ 2 nd Brazilian Consensus on Chagas Disease, 2015 *
+ 2nd Brazilian consensus on Chagas disease, 2015. 0.94
+ Dias, João Carlos Pinto; Ramos, Alberto Novaes; Gontijo, Eliane Dias; Luquetti, Alejandro; Shikanai-Yasuda, Maria Aparecida; Coura, José Rodrigues; Torres, Rosália Morais; da Cunha Melo, José Renan; de Almeida, Eros Antonio; de Oliveira, Wilson; Silveira, Antônio Carlos; de Rezende, Joffre Marcondes; Pinto, Fabiane Scalabrini; Ferreira, Antonio Walter; Rassi, Anis; Fragata, Abílio Augusto; de Sousa, Andréa Silvestre; Correia, Dalmo; Jansen, Ana Maria; Andrade, Glaucia Manzan Queiroz; de Carvalho Britto, Constança Felícia De Paoli; Pinto, Ana Yecê das Neves; Rassi, Anis; Campos, Dayse Elisabeth; Abad-Franch, Fernando; Santos, Silvana Eloi; Chiari, Egler; Hasslocher-Moreno, Alejandro Marcel; Moreira, Eliane Furtado; de Oliveira Marques, Divina Seila; Silva, Eliane Lages; Marin-Neto, José Antonio; da Cunha Galvão, Lúcia Maria; Xavier, Sergio Salles; da Silva Valente, Sebastião Aldo; Carvalho, Noêmia Barbosa; Cardoso, Alessandra Viana; Albuquerque e Silva, Rafaella; da Costa, Veruska Maia; Vivaldini, Simone Monzani; Oliveira, Suelene Mamede; da Costa Valente, Vera; Lima, Mayara Maia; Alves, Renato Vieira
+ Pinto Dias, J. C., A. N. Ramos Jr, E. Dias Gontijo, A. Luquetti, M. A. Shikanai-Yasuda, J. Rodrigues Coura, R. M. Torres, J. R. da Cunha Melo, E. A. de Almeida, W. de Oliveira Junior, A. C. Silveira, J. M. de Rezende, F. S. Pinto, A. W. Ferreira, A. Rassi, A. A. Fragata Filho, A. S. de Sousa, D. Correia, A. M. Jansen, G. M. Queiroz Andrade, C. F. De Paoli de Carvalho Britto, A. Y. das Neves Pinto, A. Rassi Junior, D. E. Campos, F. Abad-Franch, S. E. Santos, E. Chiari, A. M. Hasslocher-Moreno, E. 0.30707251566696514
+ 2016
+ 2016
+ -------
+
+------- 
+ 141
+ Towards control of Chagas disease: the contribution of the new brazilian consensus
+ Towards control of Chagas disease: the contribution of the new brazilian consensus. 0.9879518072289156
+ Ramos, Alberto Novaes; Dias, João Carlos Pinto; Correia, Dalmo
+ Ramos Jr, A. N., J. C. Pinto Dias and D. Correia. 0.33870967741935487
+ 2016
+ 2016
+ -------
+
+------- 
+ 142
+ Community resilience and Chagas disease in a rural region of Mexico
+ Community resilience and Chagas disease in a rural region of Mexico. 0.9852941176470589
+ Rangel, José Antonio Santana; Monreal, Luz Arenas; Ramsey, Janine M
+ Santana Rangel, J. A., L. A. Monreal and J. M. Ramsey. 0.32835820895522383
+ 2016
+ 2016
+ -------
+
+------- 
+ 143
+ Occurrence and distribution of triatomines (Hemiptera: Reduviidae) in municipalities of the Northeastern region of Minas Gerais State, Brazil
+ Occurrence and distribution of triatomines (Hemiptera: Reduviidae) in municipalities of the Northeastern region of Minas Gerais State, Brazil. 0.9929577464788732
+ Dias, João Victor Leite; Fernandes, Eduardo Geraldo; Pires, Herton Helder Rocha; Dias, João Carlos Pinto
+ Leite Dias, J. V., E. G. Fernandes, H. H. Rocha Pires and J. C. Pinto Dias. 0.32692307692307687
+ 2016
+ 2016
+ -------
+
+------- 
+ 144
+ Genotoxicidad del nifurtimox en deferentes líneas celulares utilizando el ensayo cometa
+ Genotoxicidad del nifurtimox en diferentes líneas celulares utilizando el ensayo cometa. 0.9772727272727273
+ Neira, Laura Fernanda
+ Neira F., L. F., A. M. Vera A. y P. Escobar. 0.31818181818181823
+ 2016
+ 2016
+ -------
+
+------- 
+ 145
+ Distribution of serological screening markers at a large hematology and hemotherapy center in Minas Gerais, Southeastern Brazil
+ Distribution of serological screening markers at a large hematology and hemotherapy center in Minas Gerais, Southeastern Brazil. 0.9921875
+ da Silva, Sônia Mara Nunes; de Oliveira, Milena Batista; Martinez, Edson Zangiacomi
+ Nunes da Silvaa, S. M., M.Batista de Oliveiraa and E. Zangiacomi Martinez. 0.3493975903614458
+ 2016
+ 2016
+ -------
+
+------- 
+ 146
+ Does my patient have chronic Chagas disease? Development and temporal validation of a diagnostic risk score
+ Does my patient have chronic Chagas disease? Development and temporal validation of a diagnostic risk score. 0.9907407407407407
+ do Brasil, Pedro Emmanuel Alvarenga Americano; Xavier, Sergio Salles; Holanda, Marcelo Teixeira; Hasslocher-Moreno, Alejandro Marcel; Braga, José Ueleres
+ Alvarenga Americano do Brasil, P. E., S. Salles Xavier, M. Teixeira Holanda, A. M. Hasslocher-Moreno and J. Ueleres Braga. 0.3464052287581699
+ 2016
+ 2016
+ -------
+
+------- 
+ 147
+ II Consenso Brasileiro em Doença de Chagas, 2015
+ II Consenso Brasileiro em Doença de Chagas, 2015. 0.9795918367346939
+ Dias, João Carlos Pinto; Ramos, Alberto Novaes; Gontijo, Eliane Dias; Luquetti, Alejandro; Shikanai-Yasuda, Maria Aparecida; Coura, José Rodrigues; Torres, Rosália Morais; da Cunha Melo, José Renan; de Almeida, Eros Antonio; de Oliveira, Wilson; Silveira, Antônio Carlos; de Rezende, Joffre Marcondes; Pinto, Fabiane Scalabrini; Ferreira, Antonio Walter; Rassi, Anis; Filho, Abílio Augusto Fragata; de Sousa, Andréa Silvestre; Filho, Dalmo Correia; Jansen, Ana Maria; Andrade, Glaucia Manzan Queiroz; de Carvalho Britto, Constança Felícia De Paoli; Pinto, Ana Yecê das Neves; Rassi, Anis; Campos, Dayse Elisabeth; Abad-Franch, Fernando; Santos, Silvana Eloi; Chiari, Egler; Hasslocher-Moreno, Alejandro Marcel; Moreira, Eliane Furtado; de Oliveira Marques, Divina Seila; Silva, Eliane Lages; Marin-Neto, José Antonio; da Cunha Galvão, Lúcia Maria; Xavier, Sergio Salles; da Silva Valente, Sebastião Aldo; Carvalho, Noêmia Barbosa; Cardoso, Alessandra Viana; Albuquerque e Silva, Rafaella; da Costa, Veruska Maia; Vivaldini, Simone Monzani; Oliveira, Suelene Mamede; da Costa Valente, Vera; Lima, Mayara Maia; Alves, Renato Vieira
+ Pinto Dias, J. C., A. Novaes Ramos Jr., E. Dias Gontijo, A. Luquetti, M. A. Shikanai-Yasuda, J. Rodrigues Coura, R. M. Torres, J. R. da Cunha Melo, E. A. de Almeida, W. de Oliveira Jr., A. C. Silveira (in memoriam), J. M. de Rezende (in memoriam), F. Scalabrini Pinto, A. W. Ferreira, A. Rassi, A. A. Fragata Filho, A. S. de Sousa, D. Correia Filho, A. M. Jansen, G. M. Queiroz Andrade, C. F. De Paoli de Carvalho Britto, A. Y. das Neves Pinto, A. Rassi Jr., D. E. Campos, F. Abad-Franch, S. E. Santo. 0.2781222320637733
+ 2016
+ 2016
+ -------
+
+------- 
+ 148
+ II Consenso Brasileiro em Doença de Chagas, 2015
+ II Consenso Brasileiro em Doença de Chagas, 2015. 0.9795918367346939
+ Carlos Pinto Dias, João; Novaes Ramos, Alberto; Dias Gontijo, Eliane; Luquetti, Alejandro; Aparecida Shikanai-Yasuda, Maria; Rodrigues Coura, José; Morais Torres, Rosália; Renan da Cunha Melo, José; Antonio de Almeida, Eros; de Oliveira Jr, Wilson; Carlos Silveira, Antônio; Marcondes de Rezende, Joffre; Scalabrini Pinto, Fabiane; Walter Ferreira, Antonio; Rassi, Anis; Augusto Fragata Filho, Abílio; Silvestre de Sousa, Andréa; Correia Filho, Dalmo; Maria Jansen, Ana; Manzan Queiroz Andrade, Glaucia; Felícia De Paoli de Carvalho Britto, Constança; Yecê das Neves Pinto, Ana; Rassi Jr, Anis; Elisabeth Campos, Dayse; Abad-Franch, Fernando; Eloi Santos, Silvana; Chiari, Egler; Marcel Hasslocher-Moreno, Alejandro; Furtado Moreira, Eliane; Seila de Oliveira Marques, Divina; Seila de Oliveira Marques, Divina; Lages Silva, Eliane; Antonio Marin-Neto, José; Maria da Cunha Galvão, Lúcia; Salles Xavier, Sergio; Aldo da Silva Valente, Sebastião; Barbosa Carvalho, Noêmia; Viana Cardoso, Alessandra; Albuquerque e Silva, Rafaella; Maia da Costa, Veruska; Monzani Vivaldini, Simone; Mamede Oliveira, Suelene; da Costa Valente, Vera; Maia Lima, Mayara; Vieira Alves, Renato
+ Pinto Dias, J. C., A. Novaes Ramos Jr., E. Dias Gontijo, A. Luquetti, M. A. Shikanai-Yasuda, J. Rodrigues Coura, R. M. Torres, J. R. da Cunha Melo, E. A. de Almeida, W. de Oliveira Jr., A. C. Silveira (in memoriam), J. M. de Rezende (in memoriam), F. Scalabrini Pinto, A. W. Ferreira, A. Rassi, A. A. Fragata Filho, A. S. de Sousa, D. Correia Filho, A. M. Jansen, G. M. Queiroz Andrade, C. F. De Paoli de Carvalho Britto, A. Y. das Neves Pinto, A. Rassi Jr., D. E. Campos, F. Abad-Franch, S. E. Santo. 0.33162393162393167
+ 2016
+ 2016
+ -------
+
+------- 
+ 149
+ II Consenso Brasileiro em Doença de Chagas, 2015
+ II Consenso Brasileiro em Doença de Chagas, 2015. 0.9795918367346939
+ Carlos Pinto Dias, João; Novaes Ramos, Alberto; Dias Gontijo, Eliane; Luquetti, Alejandro; Aparecida Shikanai-Yasuda, Maria; Rodrigues Coura, José; Morais Torres, Rosália; Renan da Cunha Melo, José; Antonio de Almeida, Eros; de Oliveira Jr, Wilson; Carlos Silveira, Antônio; Marcondes de Rezende, Joffre; Scalabrini Pinto, Fabiane; Walter Ferreira, Antonio; Rassi, Anis; Augusto Fragata Filho, Abílio; Silvestre de Sousa, Andréa; Correia Filho, Dalmo; Maria Jansen, Ana; Manzan Queiroz Andrade, Glaucia; Felícia De Paoli de Carvalho Britto, Constança; Yecê das Neves Pinto, Ana; Rassi Jr, Anis; Elisabeth Campos, Dayse; Abad-Franch, Fernando; Eloi Santos, Silvana; Chiari, Egler; Marcel Hasslocher-Moreno, Alejandro; Furtado Moreira, Eliane; Seila de Oliveira Marques, Divina; Seila de Oliveira Marques, Divina; Lages Silva, Eliane; Antonio Marin-Neto, José; Maria da Cunha Galvão, Lúcia; Salles Xavier, Sergio; Aldo da Silva Valente, Sebastião; Barbosa Carvalho, Noêmia; Viana Cardoso, Alessandra; Albuquerque e Silva, Rafaella; Maia da Costa, Veruska; Monzani Vivaldini, Simone; Mamede Oliveira, Suelene; da Costa Valente, Vera; Maia Lima, Mayara; Vieira Alves, Renato
+ Pinto Dias, J. C., A. Novaes Ramos Jr., E. Dias Gontijo, A. Luquetti, M. A. Shikanai-Yasuda, J. Rodrigues Coura, R. M. Torres, J. R. da Cunha Melo, E. A. de Almeida, W. de Oliveira Jr., A. C. Silveira (in memoriam), J. M. de Rezende (in memoriam), F. Scalabrini Pinto, A. W. Ferreira, A. Rassi, A. A. Fragata Filho, A. S. de Sousa, D. Correia Filho, A. M. Jansen, G. M. Queiroz Andrade, C. F. De Paoli de Carvalho Britto, A. Y. das Neves Pinto, A. Rassi Jr., D. E. Campos, F. Abad-Franch, S. E. Santo. 0.33162393162393167
+ 2016
+ 2016
+ -------
+
+------- 
+ 150
+ A contribuição do Consenso brasileiro em doença de Chagas no contexto epidemiológico nacional
+ A contribuicao do Consenso brasileiro em doenca de Chagas no contexto epidemiológico nacional. 0.9574468085106383
+ Posenato Garcia, Leila; Duarte, Elisete
+ Garcia, L. P. e E. Duarte. 0.33333333333333337
+ 2016
+ 2016
+ -------
+
+------- 
+ 151
+ A contribuição do Consenso brasileiro em doença de Chagas no contexto epidemiológico nacional
+ A contribuicao do Consenso brasileiro em doenca de Chagas no contexto epidemiológico nacional. 0.9574468085106383
+ Posenato Garcia, Leila; Duarte, Elisete
+ Garcia, L. P. e E. Duarte. 0.33333333333333337
+ 2016
+ 2016
+ -------
+
+------- 
+ 152
+ Chagas Disease
+ Chagas Disease. 0.9333333333333333
+ Tustin, Aaron W; Bowman, Natalie M
+ Buckner, F. S., A. C. Moore and M. S. Cetron. 0.2222222222222222
+ 2016
+ 2016
+ -------
+
+------- 
+ 153
+ Benznidazole for Chronic Chagas' Cardiomyopathy.
+ Benznidazole for chronic Chagas cardiomyopathy. 0.9791666666666666
+ Hamers, Raph L; van Gool, Tom; Goorhuis, Abraham
+ Hamers, R. L., T. van Gool, A. Goorhuis, M. A. S. Cordeiro, Julio A. Urbina, J. Gascon, I. Ribeiro, C. A. Morillo, J. A. Marin-Neto and A. Avezum. 0.2465753424657534
+ 2016
+ 2016
+ -------
+
+------- 
+ 154
+ Benznidazole for Chronic Chagas' Cardiomyopathy.
+ Benznidazole for chronic Chagas cardiomyopathy. 0.9791666666666666
+ Urbina, Julio A; Gascon, Joaquim; Ribeiro, Isabela
+ Hamers, R. L., T. van Gool, A. Goorhuis, M. A. S. Cordeiro, Julio A. Urbina, J. Gascon, I. Ribeiro, C. A. Morillo, J. A. Marin-Neto and A. Avezum. 0.226027397260274
+ 2016
+ 2016
+ -------
+
+------- 
+ 155
+ Benznidazole for Chronic Chagas’ Cardiomyopathy
+ Benznidazole for chronic Chagas cardiomyopathy. 0.9574468085106383
+ Morillo, Carlos A; Marin-Neto, Jose A; Avezum, Alvaro
+ Hamers, R. L., T. van Gool, A. Goorhuis, M. A. S. Cordeiro, Julio A. Urbina, J. Gascon, I. Ribeiro, C. A. Morillo, J. A. Marin-Neto and A. Avezum. 0.20547945205479456
+ 2016
+ 2016
+ -------
+
+------- 
+ 156
+ Commercial enzyme-linked immunosorbent assay versuspolymerase chain reaction for the diagnosis of chronic Chagas disease: a systematic review and meta-analysis
+ Commercial enzyme-linked immunosorbent assay versuspolymerase chain reaction for the diagnosis of chronic Chagas disease: a systematic review and meta-analysis. 0.99375
+ do Brasil, Pedro Emmanuel Alvarenga Americano; Castro, Rodolfo; de Castro, Liane
+ Alvarenga Americano do Brasil, P. E., R. Castro and L. de Castro. 0.3375
+ 2016
+ 2016
+ -------
+
+------- 
+ 157
+ Preventing the transmission of American trypanosomiasis and its spread into non-endemic countries
+ Preventing the transmission of American trypanosomiasis and its spread into non-endemic countries. 0.9897959183673469
+ Liu, Qin; Zhou, Xiao-Nong
+ Liu, Q. and X. N. Zhou. 0.31999999999999995
+ 2015
+ 2015
+ -------
+
+------- 
+ 158
+ Drug Susceptibility of Genetically Engineered Trypanosoma cruzi Strains and Sterile Cure in Animal Models as a Criterion for Potential Clinical Efficacy of Anti-T. cruzi Drugs       
+ Reply to Drug Susceptibility of Genetically Engineered Trypanosoma cruzi Strains and Sterile Cure in Animal Models as a Criterion for Potential Clinical Efficacy of Anti-T. cruzi Drugs. 0.9459459459459459
+ Urbina, Julio A.; McKerrow, James H.
+ Francisco, A. F., M. D. Lewis, S. Jayawardhana, M. C. Taylor, E. Chatelain and J. M. Kelly. 0.20879120879120883
+ 2015
+ 2015
+ -------
+
+------- 
+ 159
+ Chagas' Disease.
+ Chagas Disease. 0.9375
+ Bestetti, Reinaldo B; Garcia, Marcelo E; Restini, Carolina B A
+ Rassi Jr, A., A. Rassi and J. A. Marin-Neto. 0.25806451612903225
+ 2015
+ 2015
+ -------
+
+------- 
+ 160
+ Chagas' Disease.
+ Chagas Disease. 0.9375
+ Pellegrini, Debora; Jordan, Rosana; Bruetman, Julio E
+ Rassi Jr, A., A. Rassi and J. A. Marin-Neto. 0.2075471698113207
+ 2015
+ 2015
+ -------
+
+------- 
+ 161
+ Long-term follow-up of a patient since the acute phase of Chagas disease (South American trypanosomiasis): further treatment and cure of the infection
+ Long-term follow-up of a patient since the acute phase of Chagas disease (South American trypanosomiasis): further treatment and cure of the infection. 0.9933774834437086
+ Dias, João Carlos Pinto; Dias, Emmanuel; da Cunha Nóbrega, Genard Carneiro
+ Pinto Dias, J. C., E. Dias and G. Carneiro da Cunha Nóbrega. 0.33783783783783783
+ 2015
+ 2015
+ -------
+
+------- 
+ 162
+ Trypanosoma cruzi Binds to Cytokeratin through Conserved Peptide Motifs Found in the Laminin-G-Like Domain of the gp85/Trans-sialidase Proteins
+ Trypanosoma cruzi Binds to Cytokeratin through Conserved Peptide Motifs Found in the Laminin-G-Like Domain of the gp85/Trans-sialidase Proteins. 0.9930555555555556
+ Teixeira, Andre Azevedo Reis; Vasconcelos, Veronica  de Cássia Sardinha de; Colli, Walter; Alves, Maria Júlia Manso; Giordano, Ricardo José
+ Reis Teixeira, A. A., V. de C. S. de Vasconcelos, W. Colli, M. J. M. Alves and R. J. Giordano. 0.3381294964028777
+ 2015
+ 2015
+ -------
+
+------- 
+ 163
+ Chagas’ Disease
+ Chagas´ disease. 0.875
+ Longo, Dan L.; Bern, Caryn
+ Bern, C. 0.2692307692307693
+ 2015
+ 2015
+ -------
+
+------- 
+ 164
+ Sustained Domestic Vector Exposure Is Associated With Increased Chagas Cardiomyopathy Risk but Decreased Parasitemia and Congenital Transmission Risk Among Young Women in Bolivia    
+ Sustained Domestic Vector Exposure Is Associated With Increased Chagas Cardiomyopathy Risk but Decreased Parasitemia and Congenital Transmission Risk Among Young Women in Bolivia. 0.994413407821229
+ Kaplinski, Michelle; Jois, Malasa; Galdos-Cardenas, Gerson; Rendell, Victoria R.; Shah, Vishal; Q., Rose; Marcus, Rachel; Pena, Melissa S. Burroughs; del Carmen Abastoflor, Maria; LaFuente, Carlos; Bozo, Ricardo; Valencia, Edward; Verastegui, Manuela; Colanzi, Rony; Gilman, Robert H.; Bern, Caryn; Sanchez, Leny; Ferrufino, Lisbeth; Malaga, Edith; Quispe, Sara; Hinojosa, Edith; Ramirez, Margot; Saenza, Eliana; Flores-Franco, Jorge Luis; Acosta, Janet; Sanchez, Gerardo; Suxo, Maribel; Roncales, Hilsen; Ramirez, Fernando; Escalera, Nazaret Bozo; Espinoza, Celia; Vizcarra, Janet
+ Kaplinski, M., M. Jois, G. Galdos-Cardenas, V. R. Rendell, V. Shah, R. Q. Do,  R. Marcus, M. S. Burroughs Pena, M. C. Abastoflor, C. LaFuente, R. Bozo,  E. Valencia, M. Verastegui, R. Colanzi, R. H. Gilman and C. Bern. 0.29432013769363163
+ 2015
+ 2015
+ -------
+
+-------
+ 165
+ An ecological overview on the factors that drives to Trypanosoma cruzi oral transmission
+ An ecological overview on the factors that drives to Trypanosoma cruzi oral transmission. 0.9887640449438202
+ de Noya, Belkisyolé Alarcón; González, Oscar Noya
+ Alarcón de Noya, B. and O. Noya González. 0.26530612244897955
+ 2015 
+ 2015
+ -------
+
+------- 
+ 166
+ Where do these bugs come from? Phenotypic structure ofTriatoma infestans populations after control interventions in the Argentine Chaco
+ Where do these bugs come from? Phenotypic structure of Triatoma infestans populations after control interventions in the Argentine Chaco. 0.9854014598540146
+ Gaspe, María Sol; Provecho, Yael Mariana; Piccinali, Romina Valeria; Gürtler/, Ricardo Esteban
+ Gaspe, M. S., Y. M. Provecho and R. V. Piccinali. 0.3191489361702128
+ 2015
+ 2015
+ -------
+
+------- 
+ 167
+ Immunological response to re-infections with clones of the Colombian strain of Trypanosoma cruzi with different degrees of virulence: influence on pathological features during chronic infection in mice
+ Immunological response to re-infections with clones of the Colombian strain of Trypanosoma cruzi with different degrees of virulence: influence on pathological features during chronic infection in mice. 0.995049504950495
+ da Silva Guerreiro, Marcos Lazaro; Morais, Isa Rita Brito; Andrade, Sonia Gumes
+ Guerreiro, M. L. D. S., I. R. B. Morais and S. G. Andrade. 0.3291139240506329
+ 2015
+ 2015
+ -------
+
+------- 
+ 168
+ INVESTIGAÇÃO DO TRATAMENTO COM O BENZONIDAZOL SOBRE A RESPOSTA IMUNOLÓGICA DE PORTADORES CRÔNICOS DA DOENÇA DE CHAGAS
+ Investigacao do tratamento com o benzonidazol sobre a resposta imunológica de portadores cronicos da doenca de Chagas. 0.9576271186440678
+ de Moura Braz, Suellen Carvalho
+ Carvalho de Moura Braz, S. 0.22580645161290325
+ 2015
+ 2015
+ -------
+
+------- 
+ 169
+ New predictors of malignant ventricular arrhythmias in Chagas disease: searching for the holy grail
+ New predictors of malignant ventricular arrhythmias in Chagas disease: searching for the holy grail. 0.99
+ Barros, Márcio Vinícius Lins
+ Lins Barros, M. V. 0.2142857142857143
+ 2015
+ 2015
+ -------
+
+------- 
+ 170
+ Macrophage Polarization in Chagas Disease
+ Macrophage Polarization in Chagas Disease. 0.9761904761904762
+ Zanluqui, Nagela Ghabdan
+ Zanluqui, N. G., P. F. Wowk and P. Pinge-Filho. 0.34042553191489366
+ 2015
+ 2015
+ -------
+
+------- 
+ 171
+ Ecoepidemiology and biology of Eratyrus mucronatus Stål, 1859 (Hemiptera: Reduviidae: Triatominae), a sylvatic vector of Chagas disease in the Brazilian Amazon
+ Ecoepidemiology and biology of Eratyrus mucronatus St&aring;l, 1859 (Hemiptera: Reduviidae: Triatominae), a sylvatic vector of Chagas disease in the Brazilian Amazon. 0.9518072289156626
+ Monte, Gersonval Leandro Silva; Tadei, Wanderli Pedro; Farias, Thaysa Marinho
+ Silva Monte, G. L., W. P. Tadei and T. M. Farias. 0.2987012987012987
+ 2014
+ 2014
+ -------
+
+------- 
+ 172
+ Desenvolvimento de nanoemulsões contendo ácido ursólico para otimização do tratamento da doença de Chagas
+ Desenvolvimento de nanoemulsoes contendo ácido ursólico para otimizacao do tratamento da doenca de Chagas. 0.9528301886792453
+ de Oliveira, Erika Cristina Vargas
+ Vargas de Oliveira, E. C. 0.2647058823529411
+ 2014
+ 2014
+ -------
+
+------- 
+ 173
+ Ecoepidemiology, short history and control of Chagas disease in the endemic countries and the new challenge for non-endemic countries
+ Ecoepidemiology, short history and control of Chagas disease in the endemic countries and the new challenge for non-endemic countries. 0.9925373134328358
+ Coura, José Rodrigues; Viñas, Pedro Albajar; Junqueira, Angela CV
+ Rodrigues Coura, J., P. A. Viñas, and A. C. V. Junqueira. 0.32307692307692304
+ 2014
+ 2014
+  -------
+
+------- 
+ 174
+ Syncope by psychogenic hyperventilation in a patient with Chagas' disease
+ Syncope by psychogenic hyperventilation in a patient with Chagas disease. 0.9726027397260274
+ Veloso, Henrique Horta; Rezende, André Gustavo; de Paola, Angelo Amato Vincenzo
+ Horta Veloso, H., A. G. Rezende and A. A. V. de Paola. 0.3291139240506329
+ 2014
+ 2014
+ -------
+
+------- 
+ 175
+ Incidence of sudden cardiac death in congestive heart failure: Chagas disease versus systemic arterial hypertension
+ Incidence of sudden cardiac death in congestive heart failure: Chagas disease versus systemic arterial hypertension. 0.9913793103448276
+ Veloso, Henrique Horta
+ Horta Veloso, H. 0.2272727272727273
+ 2014
+ 2014
+ -------
+
+------- 
+ 176
+ Cost-effectiveness analysis of in-hospital heart failure treatment of Chagas' cardiomyopathy in comparison to other etiologies
+ Cost-effectiveness analysis of in-hospital heart failure treatment of Chagas cardiomyopathy in comparison to other etiologies. 0.9841269841269842
+ Veloso, Henrique Horta
+ Horta Veloso, H. 0.2272727272727273
+ 2014
+ 2014
+ -------
+
+------- 
+ 177
+ CHAGAS' CARDIOMYOPATHY IS ASSOCIATED WITH A HIGHER INCIDENCE OF STROKE: A META ANALYSIS OF OBSERVATIONAL STUDIES
+ Chagas cardiomyopathy is associated with higher incidence of stroke: a meta-analysis of observational studies. 0.9553571428571429
+ Macedo, Francisco Y.; Cardoso, Rhanderson; Garcia, Daniel; Benjo, Alexandre M.; Bozkurt, Biykem
+ Cardoso, R. N., F. Y. B. Macedo, M. N. Garcia, D. C. Garcia, A. M. Benjo, D. Aguilar, H. Jneid and B. Bozkurt. 0.32727272727272727
+ 2014
+ 2014
+ -------
+
+------- 
+ 178
+ The Double-Edged Sword in Pathogenic Trypanosomatids: The Pivotal Role of Mitochondria in Oxidative Stress and Bioenergetics
+ The Double-Edged Sword in Pathogenic Trypanosomatids: The Pivotal Role of Mitochondria in Oxidative Stress and Bioenergetics. 0.992
+ Menna-Barreto, Rubem Figueiredo Sadok; de Castro, Solange Lisboa
+ Figueiredo, R., S. Menna-Barreto and S. Lisboa de Castro. 0.25
+ 2014
+ 2014
+ -------
+
+------- 
+ 179
+ Challenges and perspectives of Chagas disease: a review
+ Challenges and perspectives of Chagas disease: a review. 0.9821428571428571
+ Pereira, Paulo Câmara Marques; Navarro, Elaine Cristina
+ Marques Pereira, P. C. and E. C. Navarro. 0.2545454545454545
+ 2013
+ 2013
+ -------
+
+------- 
+ 180
+ Chagas disease: control, elimination and eradication. Is it possible?
+ Chagas disease: control, elimination and eradication. Is it possible?. 0.9857142857142858
+ Coura, José Rodrigues
+ Rodrigues Coura, J. 0.2857142857142857
+ 2013
+ 2013
+ -------
+
+------- 
+ 181
+ Retrospective molecular integrated epidemiology of Chagas disease in Colombia
+ Retrospective molecular integrated epidemiology of Chagas disease in Colombia. 0.9871794871794872
+ Guhl, Felipe; Ramírez, Juan David
+ Guhl, F., and J. D. Ramírez. 0.303030303030303
+ 2013
+ 2013
+ -------
+
+------- 
+ 182
+ Letter by Bestetti and Cardinalli-Neto Regarding Article, “Ten-Year Incidence of Chagas Cardiomyopathy Among Asymptomatic, Trypanosoma cruzi–Seropositive Former Blood Donors”        
+ Letter by Rassi and Rassi Regarding Article, &ldquo;Ten-Year Incidence of Chagas Cardiomyopathy Among Asymptomatic, Trypanosoma cruziSeropositive Former Blood Donors. 0.8390804597701149
+ Bestetti, Reinaldo B.; Cardinalli-Neto, Augusto
+ Rassi Jr, A. and A. Rassi. 0.23404255319148937
+ 2013
+ 2013
+ -------
+
+------- 
+ 183
+ The discovery of Chagas disease (1908-1909): great successes and certain misunderstandings and challenges
+ The discovery of Chagas disease (1908-1909): great successes and certain misunderstandings and challenges. 0.9905660377358491
+ Coura, José Rodrigues
+ Rodrigues Coura, J. 0.2857142857142857
+ 2013
+ 2013
+ -------
+
+------- 
+ 184
+ NATURAL INFECTION BY Trypanosoma cruzi IN ONE DOG IN CENTRAL WESTERN BRAZIL: A CASE REPORT
+ Natural infection by Trypanosoma cruzi in one dog in central western brazil: a case report. 0.989010989010989
+ de Almeida, Arleana do Bom Parto Ferreira; de Paula, Daphine Ariadne Jesus; Otton, Maria Luisa Paro; Jaune, Felipe Wolf; da Cruz, Raquel Aparecida Sales; de Fátima Madeira, Maria; Nakazato, Luciano; Mendonça, Adriane Jorge; Pescador, Caroline Argenta; Sousa, Valéria Régia Franco
+ Sales Da Cruz, R. A., M. De Fátima Madeira, L. Nakazato, A. J. Mendonça, C. A. Pescador and V. R. F. Sousa. 0.28673835125448033
+ 2013
+ 2013
+ -------
+
+------- 
+ 185
+ Canine visceral leishmaniasis and Chagas disease among dogs in Araguaína, Tocantins
+ Canine visceral leishmaniasis and Chagas disease among dogs in Araguaína, Tocantins. 0.9880952380952381
+ Morais, Arielle Nunes; Sousa, Marlos Gonçalves; Meireles, Luciana Regina; Kesper, Norival; Umezawa, Eufrosina Setsu
+ Nunes Morais, A., M. Goncalves Sousa, L. R. Meireles, N. Kesper Jr. and E. S. Umezawa. 0.34782608695652173
+ 2013
+ 2013
+ -------
+
+------- 
+ 186
+ Chagas Disease An Overview of Clinical and Epidemiological Aspects
+ Chagas disease: an overview of clinical and epidemiological aspects. 0.9705882352941176
+ Nunes, Maria Carmo Pereira; Dones, Wistremundo; Morillo, Carlos A.; Encina, Juan Justiniano; Ribeiro, Antônio Luiz; Society of Cardiology, Council on Chagas Disease of the Interamerican
+ Pereira Nunes, M. C., W. Dones, C. A. Morillo, J. J. Encina and A. L. Ribeiro. 0.2432432432432432
+ 2013
+ 2013
+ -------
+
+------- 
+ 187
+ Prevalence of Trypanosoma cruzi Infection among People Aged 15 to 89 Years Inhabiting the Department of Casanare (Colombia)
+ Prevalence of Trypanosoma cruzi Infection among People Aged 15 to 89 Years Inhabiting the Department of Casanare (Colombia). 0.9919354838709677
+ Gutierrez, Fredy Roberto Salazar; Güiza, Martha Liliana Trujillo; del Carmen Escobar Martínez, Magally
+ Salazar Gutierrez, F. R., M. L. Trujillo Guiza and M. C. Escobar Martínez. 0.3431372549019608
+ 2013
+ 2013
+ -------
+
+------- 
+ 188
+ Electrocardiographic Abnormalities in Trypanosoma cruzi Seropositive and Seronegative Former Blood Donors
+ Electrocardiographic Abnormalities in Trypanosoma cruzi Seropositive and Seronegative Former Blood Donors. 0.9905660377358491
+ Ribeiro, Antonio L.; Sabino, Ester C.; Marcolino, Milena S.; Salemi, Vera M. C.; Ianni, Barbara M.; Fernandes, Fábio; Nastari, Luciano; Antunes, André; Menezes, Márcia; Oliveira, Cláudia Di Lorenzo; Sachdev, Vandana; Carrick, Danielle M.; Busch, Michael P.; Murphy, Eduard L.;
+ Ribeiro, A. L., E. C. Sabino, M. S. Marcolino, V. M. C. Salemi, B. M. Ianni, F. Fernandes, L. Nastari, A. Antunes, M. Menezes, C. Di Lorenzo Oliveira, V. Sachdev, D. M. Carrick, M. P. Busch, E. L. Murphy, for the NHLBI Retrovirus Epidemiology Donor Study-II (REDS-II), International Component. 0.3481228668941979
+ 2013
+ 2013
+ -------
+
+------- 
+ 189
+ Trypanosoma cruzi: Entry into Mammalian Host Cells and Parasitophorous Vacuole Formation
+ Trypanosoma Cruzi: Entry into Mammalian Host Cells and Parasitophorous Vacuole Formation. 0.9887640449438202
+ Barrias, Emile Santos; de Carvalho, Tecia Maria Ulisses; De Souza, Wanderley
+ Santos Barrias, E., T. M. Ulisses de Carvalho and W. De Souza. 0.32894736842105265
+ 2013
+ 2013
+ -------
+
+------- 
+ 190
+ Imaginología en el diagnóstico y el pronóstico de la enfermedad de Chagas
+ Imaginología en el diagnóstico y el pronóstico de la enfermedad de Chagas. 0.9864864864864865
+ Acquatella, Harry
+ Acquatella, H., J. R. Gomez Mancebo, F. Catalioti y J. J. Puigbó. 0.23076923076923073
+ 2013
+ 2013
+ -------
+
+------- 
+ 191
+ Seroprevalencia de marcadores de infecciones transmisibles por vía transfusional en banco de sangre de Colombia
+ Seroprevalencia de marcadores de infecciones transmisibles por vía transfusional en banco de sangre de Colombia. 0.9910714285714286
+ Bedoya, Jair Alberto Patiño; Márquez, Mónica María Cortés; Arias, Jaiberth Antonio Cardona
+ Patiño Bedoya, J. A., M. M. Cortés Márquez y J. A. Cardona Arias. 0.30000000000000004
+ 2012
+ 2012
+ -------
+
+------- 
+ 192
+ Mortality prediction in Chagas heart disease
+ Mortality prediction in Chagas heart disease. 0.9777777777777777
+ Nunes, Maria Carmo Pereira; do Carmo, Andre Assis Lopes; Rocha, Manoel Otávio Costa; Ribeiro, Antonio Luiz
+ Pereira Nunes, M. C., A. A. Lopes do Carmo, M. O. Costa Rocha and A. L. Ribeiro. 0.33018867924528306
+ 2012
+ 2012
+ -------
+
+------- 
+ 193
+ Lack of Segregation between Two Species of Chagas Disease Vectors
+ Lack of Segregation between Two Species of Chagas Disease Vectors. 0.9848484848484849
+ Mota, Theo; Lorenzo, Marcelo Gustavo
+ Mota, T. and M. G. Lorenzo. 0.33333333333333337
+ 2012
+ 2012
+ -------
+
+------- 
+ 194
+ Chagas disease: What is known and what should be improved: a systemic review
+ Chagas disease. What is known and what should be improved: a systemic review. 0.974025974025974
+ Coura, José Rodrigues; Borges-Pereira, José
+ Rodrigues Coura, J. and J. Borges-Pereira. 0.34883720930232553
+ 2012
+ 2012
+ -------
+
+------- 
+ 195
+ Hemoculture and Polymerase Chain Reaction Using Primers TCZ1/TCZ2 for the Diagnosis of Canine and Feline Trypanosomiasis
+ Hemoculture and Polymerase Chain Reaction Using Primers TCZ1/TCZ2 for the Diagnosis of Canine and Feline Trypanosomiasis. 0.9917355371900827
+ Eloy, Luciano José; Lucheis, Simone Baldini
+ Eloy, L. J. and S. Baldini Lucheis. 0.32558139534883723
+ 2012
+ 2012
+ -------
+
+------- 
+ 196
+ Stroke Correlates in Chagasic and Non-Chagasic Cardiomyopathies
+ Stroke Correlates in Chagasic and Non-Chagasic Cardiomyopathies. 0.984375
+ da Matta, José Alberto Martins; Aras, Roque; de Macedo, Cristiano Ricardo Bastos; da Cruz, Cristiano Gonçalves; Netto, Eduardo Martins
+ Martins da Matta, J. A., R. Aras, Jr., C. R. Bastos de Macedo, C. Goncalves da Cruz and E. Martins Netto. 0.33582089552238803
+ 2012
+ 2012
+ -------
+
+------- 
+ 197
+ Risks of endemicity, morbidity and perspectives regarding the control of Chagas disease in the Amazon Region
+ Risks of endemicity, morbidity and perspectives regarding the control of Chagas disease in the Amazon Region. 0.9908256880733946
+ Coura, José Rodrigues; Junqueira, Angela CV
+ Rodrigues Coura, J., and A. C. V. Junqueira. 0.20454545454545459
+ 2012
+ 2012
+ -------
+
+------- 
+ 198
+ Pathogenesis of Chagas disease cardiomyopathy
+ Pathogenesis of Chagas disease cardiomyopathy. 0.9782608695652174
+ Teixeira, Priscila Camillo
+ Teixeira, P. C., A. F. Frade, L. G. Nogueira, J. Kalil, C. Chevillard and E. Cunha-Neto. 0.23863636363636365
+ 2012
+ 2012
+ -------
+
+------- 
+ 199
+ Caso 6/2011: insuficiência cardíaca descompensada em homem de 65 anos de idade, portador de cardiopatia da doença de chagas e doença arterial coronariana
+ Caso 6-2011: Insuficiencia Cardiaca Descompensada em Homem de 65 Anos de Idade, Portador de Cardiopatia da Doenca de Chagas e Doenca Arterial Coronariana. 0.961038961038961
+ de Melo, Eduardo França Pessoa; de Melo, Rodrigo Morel Vieira; Aiello, Vera Demarchi
+ Pessoa de Melo, E. F., R. M. Vieira de Melo e V. Demarchi Aiello. 0.33333333333333337
+ 2011
+ 2011
+ -------
+
+------- 
+ 200
+ Chronic phase of Chagas disease: why should it be treated? A comprehensive review
+ Chronic phase of Chagas disease: why should it be treated? A comprehensive review. 0.9878048780487805
+ Coura, José Rodrigues; Borges-Pereira, José
+ Rodrigues Coura, J. and J. Borges-Pereira. 0.34883720930232553
+ 2011
+ 2011
+ -------
+
+------- 
+ 201
+ Crustacean cardioactive peptide in the Chagas’ disease vector, Rhodnius prolixus: Presence, distribution and physiological effects
+ Crustacean cardioactive peptide in the Chagas´ disease vector, Rhodnius prolixus: presence, distribution and physiological effects. 0.9847328244274809
+ Do Hee Lee; Lange, Angela B.
+ Lee, D. H. and A. B. Lange. 0.2142857142857143
+ 2011
+ 2011
+ -------
+
+------- 
+ 202
+ The Sphingolipid Biosynthetic Pathway Is a Potential Target for Chemotherapy against Chagas Disease
+ The Sphingolipid Biosynthetic Pathway Is a Potential Target for Chemotherapy against Chagas Disease. 0.99
+ Koeller, Carolina Macedo; Heise, Norton
+ Macedo Koeller, C. and N. Heise. 0.28205128205128205
+ 2011
+ 2011
+ -------
+
+------- 
+ 203
+ Trypanosoma cruzi I diversity: Towards the need of genetic subdivision?
+ Trypanosoma cruzi I Diversity: Towards the Need of Genetic Subdivision?. 0.9861111111111112
+ Guhl, Felipe; Ramírez, Juan David
+ Guhl, F. and J. D. Ramírez. 0.303030303030303
+ 2011
+ 2011
+ -------
+
+------- 
+ 204
+ Should tissue Doppler echocardiography be used to improve prediction of mortality risk in patients with Chagas cardiomyopathy?
+ Authors reply (Should tissue Doppler echocardiography be used to improve prediction of mortality risk in patients with Chagas cardiomyopathy?). 0.8811188811188811
+ Rassi, Anis; Rassi, Anis; Correia, Luís Cláudio
+ Nunes, M. C. P., R. C. Padilha Reis, E. A. Colosimo, A. L. P. Ribeiro and M. O. C. Rocha. 0.2359550561797753
+ 2011
+ 2011
+ -------
+
+------- 
+ 205
+ Soropositividade para doença de Chagas entre doadores de sangue em Araraquara, Estado de São Paulo, no período de 2004 a 2008
+ Soropositividade para doença de Chagas entre doadores de sangue em Araraquara, Estado de São Paulo, no período de 2004 a 2008. 0.9920634920634921
+ Filho, Julio César Rente Ferreira; da Costa, Paulo Inácio; Buainain, Arnaldo; da Rosa, João Aristeu
+ Rente Ferreira Filho, J. C., P. I. da Costa, A. Buainain e J. Aristeu da Rosa. 0.303030303030303
+ 2011
+ 2011
+ -------
+
+------- 
+ 206
+ Estado actual en el tratamiento de la enfermedad de Chagas
+ Estado actual en el tratamiento de la enfermedad de Chagas. 0.9830508474576272
+ B, WERNER APT; A, INS ZULANTAY
+ Apt B, W., and I. Zulantay A. 0.33333333333333337
+ 2011
+ 2011
+ -------
+
+------- 
+ 207
+ Transmisin de la enfermedad de Chagas por va oral
+ Transmisión de la enfermedad de Chagas por vía oral. 0.9423076923076923
+ M, ALBERTO TOSO; U, FELIPE VIAL; GALANTI, NORBEL
+ Toso, A. M., F. U. Vial, and N. Galanti. 0.25
+ 2011
+ 2011
+ -------
+
+------- 
+ 208
+ Videofluoroscopic Evaluation of Swallowing in Chagas’ Disease
+ Videofluoroscopic Evaluation of Swallowing in Chagas Disease. 0.9672131147540983
+ dos Santos, Carla Manfredi; Cassiani, Rachel Aguiar; Dantas, Roberto Oliveira
+ Manfredi dos Santos, C., R. A. Cassiani and R. O. Dantas. 0.3246753246753247
+ 2011
+ 2011
+ -------
+
+------- 
+ 209
+ The association of infection and clinical severity in sickle cell anaemia patients.
+ The association of infection and clinical severity in sickle cell anaemia patients. 1.0
+ Neto, Jose P Moura; Lyra, Isa Menezes; Reis, Mitermayer G; Goncalves, Marilda S
+ Moura Neto, J. P., I. Menezes Lyra, M. G. Reis and M. S. Goncalves. 0.3291139240506329
+ 2011
+ 2011
+ -------
+
+------- 
+ 210
+ I Diretriz Latino-Americana para o Diagnóstico e Tratamento da Cardiopatia Chagásica
+ I Diretriz Latino Americana para o Diagnstico e Tratamento da Cardiopatia Chagásica. 0.9642857142857143
+ Castro, Iran; Andrade, Jadelson Pinheiro de; Paola, Angelo Amato Vincenzo de; Vilas-Boas, Fábio; Oliveira, Gláucia Maria Moraes; Marin Neto, José Antônio; Chagas, Antônio Carlos Palandri; Rocha, Eduardo Augusto Victor; Oliveira, Gláucia Maria Moraes; Zimerman, Leandro Ioschpe; Campos, Luiz Antonio de Almeida; Montera, Marcelo Westerlund; Barbosa, Márcia de Melo; Guimarães, Jorge Ilha; Morillo, Carlos; Acquatella, Harry; Mitelman, Jorge; Moreno, Juan Bautista Gonzalez; Gimenez, Luisa; Dones, Wistremundo; Fragata Filho, Abílio Augusto; Paola, Angelo Amato Vincenzo de; Almeida, Dirceu Rodrigues; Bocchi, Edimar Alcides; Bacal, Fernando; Dias, João Carlos Pinto; Moreira, Maria da Consolação Vieira; Xavier, Sérgio Salles; Oliveira Junior, Wilson Alves de
+ Andrade, J. P., J. A. Marin-Neto, A. A. Paola, F. Vilas-Boas, G. M. Oliveira, F. Bacal, E. A. Bocchi, D. R. Almeida, A. A. Fragata Filho, M. da C. Moreira, S. S. Xavier, W. A. Oliveira Junior e J. C. Dias, Sociedade Brasileira de Cardiologia. 0.21635883905013198
+ 2011
+ 2011
+ -------
+
+------- 
+ 211
+ Distribuição espacial e caracterização dos casos de doença de Chagas no Estado do Maranhão, Brasil no período de 2008 a 2018
+ Distribuicao espacial e caracterizacao dos casos de doenca de Chagas no Estado do Maranhao, Brasil no período de 2008 a 2018. 0.944
+ Gomes, Laércio da Silva; Silva Júnior, Francisco Tiago dos Santos; Matos, Luis Felipe Lima; Nunes, Daniel Barbosa; Feitosa, Eduardo Lima; Oliveira, Evaldo Hipólito de
+ da Silva Gomes, L., F. T. dos Santos Silva Junior, L. F. L. Matos, D. Barbosa Nunes, E. L. Freitosa e E. H. de Oliveira. 0.3313253012048193
+ 2020
+ 2020
+ -------
+
+------- 
+ 212
+ Chagas Disease Infection Reactivation after Heart Transplant
+ Chagas disease infection reactivation after heart transplant. 0.9836065573770492
+ da Consolação Vieira Moreira, Maria; Cunha-Melo, José Renan
+ Vieira Moreira, M. C. and J. R. Cunha-Melo. 0.3389830508474576
+ 2020
+ 2020
+ -------
+
+------- 
+ 213
+ Perfil epidemiológico da Doença de Chagas aguda no Pará entre 2010 e 2017
+ Perfil epidemiológico da Doenca de Chagas aguda no Pará entre 2010 e 2017. 0.972972972972973
+ Silva, Giovanna Gomes e; Aviz, Gabriele Barros de; Monteiro, Ronaldo Costa
+ Gomes e Silva, G., G. Barros de Aviz e R. Costa Monteiro. 0.32432432432432434
+ 2020
+ 2020
+ -------
+
+------- 
+ 214
+ Síntesis de evidencia: Guía para el diagnóstico y el tratamiento de la enfermedad de Chagas
+ Síntesis de evidencia: Guía para el diagnóstico y el tratamiento de la enfermedad de Chagas. 0.9891304347826086
+ Franck, Maria Cristina; Monteiro, Maristela Goldnadel; Limberger, Renata Pereira
+ Organización Panamericana de la Salud. 0.23750000000000004
+ 2020
+ 2020
+ -------
+
+------- 
+ 215
+ Chagas cardiomyopathy and heart failure: From epidemiology to treatment
+ Chagas cardiomyopathy and heart failure: From epidemiology to treatment. 0.9861111111111112
+ Santos, Érico; Falcão, Luiz Menezes
+ Santos, E. and L. M. Falcao. 0.34285714285714286
+ 2020
+ 2020
+ -------
+
+------- 
+ 216
+ An Unbelievable Esophagus
+ An Unbelievable Esophagus. 0.9615384615384616
+ Miranda, Luiz Eduardo Correia; Miranda, Ana Clara Galindo; Lima, Diego Laurentino
+ Correia Miranda, L. E., A. C. Galindo Miranda and D. L. Lima. 0.33333333333333337
+ 2020
+ 2020
+ -------
+
+------- 
+ 217
+ Chagas Disease and Healthcare Rights in the Bolivian Immigrant Community of São Paulo, Brazil
+ Chagas Disease and Healthcare Rights in the Bolivian Immigrant Community of Sao Paulo, Brazil. 0.9787234042553191
+ Aith, Fernando Mussa Abujamra; Forsyth, Colin; Shikanai-Yasuda, Maria Aparecida
+ Abujamra Aith, F. M., C. Forsyth and M. A. Shikanai-Yasuda. 0.3417721518987342
+ 2020
+ 2020
+ -------
+
+------- 
+ 218
+ Chagas Disease - Past and Future
+ Chagas Disease - Past and Future. 0.9696969696969697
+ de Souza, Aurea Lúcia Alves de Azevedo Grippa; Mesquita, Claudio Tinoco
+ Grippa de Souza, A. L. A. A. and C. T. Mesquita. 0.3098591549295775
+ 2020
+ 2020
+ -------
+
+------- 
+ 219
+ Cenário epidemiológico da Doença de Chagas no Estado do Pará, Brasil
+ Cenário epidemiológico da Doenca de Chagas no Estado do Pará, Brasil. 0.9710144927536232
+ Parente, Mayara Ferreira; Silva, Tais dos Reis; Henriques, Raphael Macedo; Siravenha, Leonardo Quintão
+ Ferreira Parente, M., T. dos Reis da Silva, R. Macedo Henriques e L. Quintao Siravenha. 0.3431372549019608
+ 2020
+ 2020
+ -------
+
+------- 
+ 220
+ Nitric oxide in patients with chronic chagas disease
+ Nitric oxide in patients with chronic Chagas disease. 0.9811320754716981
+ Faria, Victor Antonio Costa; Estabile, Bruno Lepera
+ Costa Faria, V. A. and B. L. Estabile. 0.2941176470588235
+ 2019
+ 2019
+ -------
+
+------- 
+ 221
+ Primer registro de Eratyrus mucronatus Stal, 1859: vector de la enfermedad de Chagas en el departamento del Putumayo, Colombia
+ Primer registro de Eratyrus mucronatus Stal, 1859: vector de la enfermedad de Chagas en el departamento del Putumayo, Colombia. 0.9921259842519685
+ Canamejoy, Keila Ortiz –
+ Ortiz Canamejoy, K. 0.25
+ 2019
+ 2019
+ -------
+
+------- 
+ 222
+ REINCIDÊNCIA DA DOENÇA DE CHAGAS NO BRASIL POR VIAS ALTERNATIVAS DE TRANSMISSÃO:
+ Reincidencia da doenca de Chagas no Brasil por vias alternativas de transmissao. 0.95
+ ARAUJO, LARISSA; FIGUEIRA, CAROLINE BARROS; SANTOS, PAULO CESAR VILELA; SOARES, MICHEL MARTINS; MARTINS, KAROL-LAYNE MACENA; TAKADA, JOÃO PAULO ZELLMER; SOUZA, LETICIA BATISTA; BARBOSA, GUSTAVO ANTONIO FIGUEIREDO
+ Barros Figueira, C., J. P. Zellmer Takad, G. A. Figueiredo Barbosa, K. L. M. Martins, L. Moreira Araujo, L. B. Souza e P. C. Vilela Santos. 0.3160377358490566
+ 2019
+ 2019
+ -------
+
+------- 
+ 223
+ Reply Rassi Score: Another External Validation With High Performance in Patients With Chagas Cardiomyopathy
+ Rassi Score: Another external validation with high performance in patients with chagas cardiomyopathy. 0.9345794392523364
+ Senra, Tiago; Rochitte, Carlos E.
+ Rassi Jr., A. and A. Rassi. 0.21212121212121215
+ 2019
+ 2019
+ -------
+
+------- 
+ 224
+ Guidelines for the diagnosis and treatment of Chagas disease
+ Guidelines for the diagnosis and treatment of Chagas disease. . 0.9523809523809523
+ Pereiro, Ana Cristina
+ Pan American Health Organization. 0.33333333333333337
+ 2019
+ 2019
+ -------
+
+------- 
+ 225
+ Antiparasitic phytotherapy perspectives, scope and current development
+ Antiparasitic phytotherapy perspectives, scope and current development. 0.9859154929577465
+ Osorio, Jhon Carlos Castaño; García, Alejandra María Giraldo
+ Castaño Osorio, J. C. and A. M. Giraldo García. 0.25
+ 2019
+ 2019
+ -------
+
+------- 
+ 226
+ Dissecting a novel allosteric mechanism of cruzain: A computer-aided approach
+ Dissecting a novel allosteric mechanism of cruzain: A computer-aided approach. 0.9871794871794872
+ Alvarez, Lilian Hernández; Gomes, Diego Enry Barreto; González, Jorge Enrique Hernández; Pascutti, Pedro Geraldo
+ Hernández Alvarez, L., D. E. Barreto Gomes, J. E. Hernández González and P. G. Pascutti. 0.3482142857142857
+ 2019
+ 2019
+ -------
+
+------- 
+ 227
+ Reactivation of Chagas disease in a heart transplant patient infected by sylvatic Trypanosoma cruzi discrete typing unit I
+ Reactivation of Chagas disease in a heart transplant patient infected by sylvatic Trypanosoma cruzi discrete typing unit I. 0.991869918699187
+ Inga, Leydi Alexandra Ceballos; Olivera, Mario Javier
+ Ceballos Inga, L. A. and M. J. Olivera. 0.2264150943396226
+ 2019
+ 2019
+ -------
+
+------- 
+ 228
+ Occurrence of triatomines (Hemiptera: Reduviidae) in domestic and natural environments in Novo Remanso, Itacoatiara, Amazonas, Brazil
+ Occurrence of triatomines (Hemiptera: Reduviidae) in domestic and natural environments in Novo Remanso, Itacoatiara, Amazonas, Brazil. 0.9925373134328358
+ Batista, Diego Gomes; Britto, Constança; Monte, Gersonval Leandro Silva; Baccaro, Fabrício Beggiato
+ Gomes Batista, D., C. Britto, G. L. Silva Monte and F. B. Baccaro. 0.3232323232323232
+ 2019
+ 2019
+ -------
+ ------- 
+ 229
+ Evidence of Likely Autochthonous Transmission of Chagas Disease in Arizona.
+ Evidence of Likely Autochthonous Transmission of Chagas Disease in Arizona. 1.0
+ Beatty, Norman L; Perez-Velez, Carlos M; Yaglom, Hayley D; Carson, Sharon; Liu, Eugene; Khalpey, Zain I; Klotz, Stephen A; Elliott, Sean P
+ Beatty, N. L., S. Carson, S. Elliott, H. D. Yaglom, S. A. Klotz, Z. I. Khalpey, E. Liu and C. M. Perez-Velez. 0.34782608695652173
+ 2018
+ 2018
+ -------
+
+------- 
+ 230
+ Chagas disease
+ Chagas disease. 0.9333333333333333
+ Tzizik, Dan M.; Borchardt, Roy A.
+ Pérez-Molina, J. A. and I. Molina. 0.23529411764705888
+ 2018
+ 2018
+
+ ------- 
+ -------
+ 231
+ Electrocardiogram in Chagas disease
+ Electrocardiogram in Chagas disease. 0.9722222222222222
+ Brito, Bruno Oliveira de Figueiredo; Ribeiro, Antônio Luiz Pinho
+ de Figueiredo Brito, B. O. and A. L. Pinho Ribeiro. 0.234375
+ 2018
+ 2018
+ -------
+
+------- 
+ 232
+ Functional capacity in Chagas disease
+ Functional capacity in Chagas disease. 0.9736842105263158
+ Ribeiro, Antonio Luiz Pinho
+ Pinho Ribeiro, A. L. 0.2222222222222222
+ 2018
+ 2018
+ -------
+
+------- 
+ 233
+ The treatment with selenium increases placental parasitismin pregnant Wistar rats infected with the Y strain of Trypanosoma cruzi
+ The treatment with selenium increases placental parasitismin pregnant Wistar rats infected with the Y strain of Trypanosoma cruzi. 0.9923076923076923
+ de Freitas, Murilo Rodrigues Barbosa; da Costa, Cássia Mariana Bronzon; Pereira, Luiz Miguel; do Prado, José Clóvis; Sala, Miguel Angel; Abrahão, Ana Amélia Carraro
+ Rodrigues Barbosa de Freitasa, M., C. M. Bronzon da Costa, L. M. Pereira, J. C. do Prado Júnior, M. A. Sala, A. A. Carraro Abrahao. 0.3414634146341463
+ 2018
+ 2018
+ -------
+
+------- 
+ 234
+ Extracellular Vesicles in Chagas Disease: A New Passenger for an Old Disease
+ Extracellular vesicles in Chagas disease: a new passenger for an old disease. 0.987012987012987
+ de Pablos Torró, Luis M.; Moreira, Lissette Retana; Osuna, Antonio
+ Torró, L. M. de P., L. R. Moreira and A. Osuna. 0.3484848484848485
+ 2018
+ 2018
+ -------
+
+------- 
+ 235
+ Atrial fibrillation in acute Chagas disease acquired via oral transmission: a case report
+ Atrial fibrillation in acute Chagas disease acquired via oral transmission: a case report. 0.9888888888888889
+ de Souza, Paulo Fernando Pimenta; Pine, Rosane Cheble Domingues; de Paula Ramos, Francisco Lúzio; Pinto, Ana Yecê das Neves
+ Pimenta de Souza, P. F., R. C. Domingues Pine, F. L. de P. Ramos and A. Y. das Neves Pinto. 0.30081300813008127
+ 2018
+ 2018
+ -------
+
+------- 
+ 236
+ Right ventricular pacing in Chagas heart disease
+ Right ventricular pacing in Chagas heart disease. 0.9795918367346939
+ de Lima Peixoto, Giselle; Filho, Martino Martinelli; Siqueira, Sérgio Freitas
+ Bestetti, R. B. and A. Cardinalli-Neto. 0.23376623376623373
+ 2018
+ 2018
+ -------
+
+------- 
+ 237
+ PARP1 depletion improves mitochondrial and heart function in Chagas disease: Effects on POLG dependent mtDNA maintenance
+ PARP1 depletion improves mitochondrial and heart function in Chagas disease: Effects on POLG dependent mtDNA maintenance. 0.9917355371900827
+ Wen, Jake Jianjun; Yin, Yuhui Whitney; Garg, Nisha Jain
+ Wen, J. J., Y. W. Yin and N. J. Garg. 0.34545454545454546
+ 2018
+ 2018
+ -------
+
+------- 
+ 238
+ Occurrence of Stroke and Reduced Ejection Fraction in Patients with Chagas Disease
+ Occurrence of Stroke and Reduced Ejection Fraction in Patients with Chagas Disease. 0.9879518072289156
+ Sampaio, Elieusa e Silva; Oliveira, Márcia Maria Carneiro; Aras, Roque
+ e Silva Sampaio, E., M. M. C. Oliveira and R. Aras. 0.30000000000000004
+ 2018
+ 2018
+ -------
+
+------- 
+ 239
+ Severity of Chagasic Cardiomyopathy Is Associated With Response to a Novel Rapid Diagnostic Test for Trypanosoma cruzi TcII/V/VI
+ Severity of Chagasic Cardiomyopathy Is Associated With Response to a Novel Rapid Diagnostic Test for Trypanosoma cruzi TcII/V/VI. 0.9922480620155039
+ Bhattacharyya, Tapan; Messenger, Louisa A; Bern, Caryn; Mertens, Pascal; Gilleman, Quentin; Zeippen, Nicolas; Hinckel, Bruno C Bremer; Murphy, Niamh; Gilman, Robert H; Miles, Michael A; Flores, Jorge; Colanzi, Roni; Bozo, Ricardo; Galdos, Gerson; Verastegui, Manuela; Sanchez, Gerardo; Okamoto, Emi; Sherbuck, Jackie; Rendell, Toria; Shah, Vishal; Jois, Malasa; Marti, Diana
+ Bhattacharyya, T., L. A. Messenger, C. Bern, P. Mertens, Q. Gilleman, N. Zeippen, B. C. Bremer Hinckel, N. Murphy, R. H. Gilman and M. A. Miles. 0.28342245989304815
+ 2018
+ 2018
+ -------
+
+------- 
+ 240
+ Barriers to Diagnosis Access for Chagas Disease in Colombia
+ Barriers to Diagnosis Access for Chagas Disease in Colombia. 0.9833333333333333
+ Olivera, Mario Javier; Villamil, Julián Felipe Porras; Gahona, Christian Camilo Toquica; Hernández, Jorge Martín Rodríguez
+ Olivera, M. J., J. F. Porras Villamil, C. C. T. Gahona and J. M. Rodríguez Hernández. 0.33606557377049184
+ 2018
+ 2018
+ -------
+
+------- 
+ 241
+ The Indeterminate Form of Chagas Disease
+ The Indeterminate Form of Chagas Disease. 0.975609756097561
+ Issa, Victor Sarli
+ Sarli Issa, V. 0.2222222222222222
+ 2018
+ 2018
+ -------
+
+------- 
+ 242
+ Surveillance of seroepidemiology and morbidity of Chagas disease in the Negro River, Brazilian Amazon
+ Surveillance of seroepidemiology and morbidity of Chagas disease in the Negro River, Brazilian Amazon. 0.9901960784313726
+ Coura, José Rodrigues; Junqueira, Angela CV; Ferreira, João Marcos BB
+ Rodrigues Coura, J., A. C. V. Junqueira and J. M. B. B. Ferreira. 0.24637681159420288
+ 2018
+ 2018
+-------
+ 243
+ Heart transplantation for Chagas cardiomyopathy
+ Heart transplantation for Chagas cardiomyopathy. 0.9791666666666666
+ Ramalho, Ana Rita; Prieto, David; Antunes, Pedro; Franco, Fátima; Antunes, Manuel J
+ Benatti, R. D., G. H. Oliveira and F. Bacal. 0.22891566265060237
+ 2017
+ 2017
+ -------
+
+-------
+ 244
+ The Interleukin-17 (IL-17) puzzle in Chagas disease
+ The Interleukin-17 (IL-17) Puzzle in Chagas Disease. 0.9807692307692307
+ Mengel, Jose
+ Mengel, J. and F. Cardillo. 0.33333333333333337
+ 2017
+ 2017
+ -------
+
+------- 
+ 245 
+ Heart transplantation for Chagas cardiomyopathy 
+ Heart transplantation for Chagas cardiomyopathy. 0.9791666666666666
+ Ramalho, Ana Rita; Prieto, David; Franco, Fátima; Antunes, Manuel J.
+ Benatti, R. D., G. H. Oliveira and F. Bacal. 0.2647058823529411
+ 2017
+ 2017
+ -------
+
+------- 
+ 246
+ Brief Review on Chagas Disease in the State of Guerrero, Mexico
+ Brief review on Chagas disease in the state of Guerrero, Mexico. 0.984375
+ Laura, Sampedro-Rosas María
+ Gabriela, B. I. A. and S. R. M. Laura. 0.2894736842105263
+ 2017
+ 2017
+ -------
+
+------- 
+ 247
+ Inhibition of Host Cell Lysosome Spreading by Trypanosoma cruzi Metacyclic Stage-Specific Surface Molecule gp90 Downregulates Parasite Invasion
+ Inhibition of host cell lysosome spreading by Trypanosoma cruzi metacyclic stage-specific surface molecule gp90 downregulates parasite invasion. 0.9930555555555556
+ Rodrigues, João Paulo Ferreira; Sant'ana, Guilherme Hideki Takahashi; Juliano, Maria Aparecida; Yoshida, Nobuko
+ Ferreira Rodrigues, J. P., G. H. T. Santana, M. A. Juliano and N. Yoshida. 0.3423423423423423
+ 2017
+ 2017
+ -------
+
+------- 
+ 248
+ PERFIL EPIDEMIOLÓGICO DOS PORTADORES DE DOENÇA DE CHAGAS: DOS INDICADORES DE RISCO AO PROCESSO DE ENFRENTAMENTO DA DOENÇA
+ Perfil epidemiológico dos portadores de doenca de Chagas: dos indicadores de risco ao processo de enfrentamento da doenca. 0.9754098360655737
+ Cardozo, Elline Jahne de Souza; Cavalcanti, Marília Abrantes Fernandes; Barreto, Márcio Adriano Fernandes; NASCIMENTO, ELLANY GURGEL COSME DO
+ de Souza Cardoso, E. J., M. A. Fernandes Cavalcanti, E. G. C. do Nascimento e M. A. Fernandes Barreto. 0.3191489361702128
+ 2017
+ 2017
+ -------
+
+------- 
+ 249
+ Real-time PCR strategy for the identification of Trypanosoma cruzi discrete typing units directly in chronically infected human blood
+ Real-time PCR strategy for the identification of Trypanosoma cruzi discrete typing units directly in chronically infected human blood. 0.9925373134328358
+ Martín, Catalina Muñoz-San; Apt, Werner; Zulantay, Inés
+ Muñoz-San Martín, C., W. Apt and I. Zulantay. 0.3090909090909091
+ 2017
+ 2017
+ -------
+
+------- 
+ 250
+ Benznidazole and Posaconazole in Eliminating Parasites in Asymptomatic T. Cruzi Carriers The STOP-CHAGAS Trial
+ Benznidazole and posaconazole in eliminating parasites in asymptomatic T. cruzi carriers: the STOP-CHAGAS trial. 0.9553571428571429
+ Morillo, Carlos A.; Waskin, Hetty; Sosa-Estani, Sergio; del Carmen Bangher, Maria; Cuneo, Carlos; Milesi, Rodolfo; Mallagray, Marcelo; Apt, Werner; Beloscar, Juan; Gascon, Joaquim; Molina, Israel; Echeverria, Luis E.; Colombo, Hugo; Perez-Molina, Jose Antonio; Wyss, Fernando; Meeks, Brandi; Bonilla, Laura R.; Gao, Peggy; Wei, Bo; McCarthy, Michael; Yusuf, Salim; Morillo, Carlos; Sosa-Estani, Sergio; Waskin, Hetty; Meeks, Brandi; Yusuf, Salim; Diaz, Rafael; Acquatella, Harry; Lazzari, Julio; Roberts, Robin; Traina, Mahmoud; Meeks, Brandi; Bonilla, Laura R.; Gao, Peggy; Taylor, Amanda; Holadyk-Gris, Iris; Whalen, Lindsey; Bangher, M.C.; Romero, M.A.; Prado, N.; Hernández, Y.; Fernandez, M.; Riarte, A.; Scollo, K.; Lopez-Albizu, C.; Cuneo, C.A.; Gutiérrez, N.C.; Milesi, R.R.; Berli, M.A.; Mallagray, M.H.; Cáceres, N.E.; Beloscar, J.S.; Petrucci, J.M.; Colombo, H.; Dellatorre, M.; Prado, Aldo; Apt, W.; Zulantay, I.; Echeverría, L.E.; Isaza, D.; Reyes, E.; Wyss, F.S.; Figueroa, A.; Melgar, I. Guzmán; Rodríguez, E.; Gascon, J.; Aldasoro, E.; Posada, E.J.; Serret, N.; Molina, I.; Sánchez-Montalvá, A.; Perez-Molina, J.A.; López-Vélez, R.; Reyes-López, P.A.
+ Morillo, C. A., H. Waskin, S. Sosa-Estani, M. del C. Bangher, C. Cuneo, R. Milesi, M. Mallagray, W. Apt, J. Beloscar, J. Gascon, I. Molina, L. E. Echeverria, H. Colombo, J. A. Perez-Molina, F. Wyss, B. Meeks, L. R. Bonilla, P. Gao, B. Wei, M. McCarthy and S. Yusuf, on behalf of the STOP-CHAGAS Investigators. 0.21955403087478564
+ 2017
+ 2017
+ -------
+
+------- 
+ 251
+ Chagas disease-associated kidney injury – A review
+ Chagas disease-associated kidney injury-A review. 0.92
+ da Silva, Geraldo Bezerra; Antunes, Verônica Verleine Hörbe; Motta, Mariana; Barros, Elvino José Guardão; De Francesco Daher, Elizabeth
+ Bezerra da Silva Junior, G., V. V. Horbe Antunes, M. Motta, E. J. Guardao Barro and E. De Francesco Daher. 0.32592592592592595
+ 2017
+ 2017
+ -------
+
+------- 
+ 252
+ Emprego do Ecocardiograma Tridimensional na Análise de Função Ventricular na Doença de Chagas
+ Emprego do Ecocardiograma Tridimensional na Análise de Funcao Ventricular na Doenca de Chagas. 0.9574468085106383
+ Barros-Filho, Antonio Carlos Leite de; Romano, Minna Moreira Dias
+ Leite de Barros-Filho, A. C. e M. Moreira Dias Romano. 0.27692307692307694
+ 2023
+ 2023
+ -------
+
+------- 
+ 253
+ Chagas disease
+ Chagas disease. 0.9333333333333333
+ de Sousa, Andréa Silvestre; Vermeij, Debbie; Ramos, Alberto Novaes; Luquetti, Alejandro O
+ Silvestre de Sousa, A., D. Vermeij, A. Novaes Ramos Jr and A. O. Luquetti. 0.3258426966292135
+ 2023
+ 2023
+ -------
+
+------- 
+ 254
+ Mitochondrial DNA Haplogroups and Variants Predispose to Chagas Disease Cardiomyopathy
+ Mitochondrial DNA Haplogroups and Variants Predispose to Chagas Disease Cardiomyopathy. 0.9885057471264368
+ Gallardo, Frédéric; Brochet, Pauline; Goudenège, David; Nunes, João Paulo Silva; Andrieux, Pauline; Ianni, Barbara Maria; Frade, Amanda Farage; Mady, Charles; Santos, Ronaldo Honorato Barros; Kuramoto, Andreia; Steffen, Samuel; Stolf, Antonio Noedir; Pomerantzeff, Pablo; Fiorelli, Alfredo Inacio; Bocchi, Edimar Alcides; Pissetti, Cristina Wide; Saba, Bruno; Dias, Fabrício C.; Sampaio, Marcelo Ferraz; Gaiotto, Fabio Antônio; Marin-Neto, José Antonio; Fragata, Abílio; Zaniratto, Ricardo Costa Fernandes; Siqueira, Sergio; De Lima Peixoto, Giselle; Bacal, Fernando; Buck, Paula; Almeida, Rafael Ribeiro; Lin-Wang, Hui Tzu; Schmidt, André; Hirata, Mario Hiroyuki; Donadi, Eduardo Antonio; Pereira, Alexandre Costa; Rodrigues, Virmondes; Martinelli, Martino; Naslavsky, Michel; Kalil, Jorge; Procaccio, Vincent; Cunha-Neto, Edecio; Chevillard, Christophe
+ Gallardo, F., P. B. Brochet P., D. Goudenege, J. P. Silva Nunes, P. Andrieux, B. M. Ianni, A. Farage Frade, C. Mady, R. Honorato Barros Santos , A. Kuramoto, S. Steffen, A. N. Stolf, P. Pomerantzeff, A. I. Fiorelli, E. A. Bocchi , C. W. Pissetti, B. Saba, F. Dias , M. Ferraz Sampaio, F. A. Gaiotto, J. A. Marin-Neto, A. Fragata, ..,  V. Procaccio , E. Cunha-Neto and C. Chevillard. 0.3161592505854801
+ 2023
+ 2023
+ -------
+
+------- 
+ 255
+ A biologia molecular como ferramenta para o diagnóstico da Doença de Chagas
+ A biologia molecular como ferramenta para o diagnóstico da Doenca de Chagas. 0.9736842105263158
+ De Melo, Andreza Siqueira; Ferrari, Fernanda
+ Siqueira de Melo, A. e F. Ferrari. 0.2954545454545454
+ 2023
+ 2023
+ -------
+
+------- 
+ 256
+ Chagas Disease, A Review of the Literature
+ Chagas Disease, a Review of the Literature. 0.9767441860465116
+ Arciniega, Karen Denis Gómez; Castellón, Ramsés Erwin López
+ Gómez Arciniega, K. D. and R. E. López Castellón. 0.30508474576271183
+ 2023
+ 2023
+ -------
+
+------- 
+ 257
+ Inflammation and mitochondria in the pathogenesis of chronic Chagas disease cardiomyopathy
+ Inflammation and mitochondria in the pathogenesis of chronic Chagas disease cardiomyopathy. 0.989010989010989
+ Nunes, João Paulo Silva; de Paiva Roda, Vinicius Moraes; Andrieux, Pauline; Kalil, Jorge; Chevillard, Christophe; Cunha-Neto, Edecio
+ Andrieux, P., C. Chevillard, E. Cunha-Neto and J. P. Silva Nunes. 0.21212121212121215
+ 2023
+ 2023
+ -------
+
+------- 
+ 258
+ Uma análise acerca da cardiomiopatia chagásica
+ Uma análise acerca da cardiomiopatia chagásica. 0.9787234042553191
+ Silva, Nicolas do Val Carvalho; Siqueira, Emílio Conceição de
+ do Val Carvalho Silva, N. e E. Conceicao de Siqueira. 0.34426229508196726
+ 2023
+ 2023
+ -------
+
+------- 
+ 259
+ Caracterización de la enfermedad de Chagas aguda en pacientes pediátricos atendidos en el Hospital Regional de la Orinoquía entre 2015 y 2020
+ Caracterización de la enfermedad de Chagas aguda en pacientes pediátricos atendidos en el Hospital Regional de la Orinoquía entre 2015 y 2020. 0.9929577464788732
+ Barrera, Monica Liseth Holguin; Agudelo, Lorena García; Cacares, María Angélica Mendoza; Rodríguez, Ledmar Vargas
+ Holguín Barrera, M. L., L. García Agudelo, M. A. Mendoza Cacares y L. Vargas Rodríguez. 0.34513274336283184
+ 2023
+ 2023
+ -------
+
+------- 
+ 260
+ Balancing the functions of DNA extracellular traps in intracellular parasite infections: implications for host defense, disease pathology and therapy
+ Balancing the functions of DNA extracellular traps in intracellular parasite infections: implications for host defense, disease pathology and therapy. 0.9933333333333333
+ Koh, Carolina Cattoni; Gollob, Kenneth J.; Dutra, Walderez O.
+ Cattoni Koh, C., K. J. Gollob and W. O. Dutra. 0.3114754098360656
+ 2023
+ 2023
+ -------
+
+------- 
+ 261
+ Experimental Trypanosoma cruzi Infection and Chagas Disease—A Word of Caution
+ Experimental Trypanosoma cruzi Infection and Chagas Disease-A Word of Caution. 0.9743589743589743
+ Talvani, André; Teixeira, Mauro Martins
+ Talvani, A. and M. Martins Teixeira. 0.33333333333333337
+ 2023
+ 2023
+ -------
+
+------- 
+ 262
+ Distribución espacial y análisis de conglomerados de la enfermedad de Chagas en Perú 2015-2020
+ Distribución espacial y análisis de conglomerados de la enfermedad de Chagas en Perú 2015-2020. 0.9894736842105263
+ Mendivel Geronimo, Cesar Augusto
+ Mendivel Geronimo, C. A., A. R. Patiño Rivera, G. G. Rosales Rojas, H. R. Carpio Segovia y P. D. Coronado Rodríguez. 0.24137931034482762
+ 2023
+ 2023
+ -------
+
+------- 
+ 263
+ Editorial: Intensive management of cardiovascular disease patients with confirmed or suspected COVID-19 in area where Chagas disease is endemic
+ Editorial: Intensive management of cardiovascular disease patients with confirmed or suspected COVID-19 in area where Chagas disease is endemic. 0.9930555555555556
+ Nakazone, Marcelo Arruda; Issa, Victor Sarli; Bestetti, Reinaldo Bulgarelli
+ Arruda Nakazone, M., V. S. Issa and R. Bulgarelli Bestetti. 0.28
+ 2023
+ 2023
+ -------
+
+ ------- 
+ 264
+ Chagas Disease.
+ Chagas Disease. 1.0
+ Hochberg, Natasha S; Montgomery, Susan P
+ Nguyen, T. and M. Waseem. 0.22499999999999998
+ 2023
+ 2023
+ -------
+
+------- 
+ 265
+ CHAGAS DISEASE AND STROKE: A NEW PERSPECTIVE BASED REVIEW
+ Chagas Disease and Stroke: A New Perspective Based Review. 0.9827586206896551
+ Montanaro, Vinicius Viana
+ Viana Montanaro, V. 0.24
+ 2023
+ 2023
+ -------
+
+------- 
+ 266
+ Fexinidazole interferes with the growth and structural organization of Trypanosoma cruzi
+ Fexinidazole interferes with the growth and structural organization of Trypanosoma cruzi. 0.9887640449438202
+ Zuma, Aline Araujo; de Souza, Wanderley
+ Araujo Zuma, A. and W. de Souza. 0.28205128205128205
+ 2022
+ 2022
+ -------
+
+------- 
+ 267
+ Publishing data to support the fight against human vector-borne diseases
+ Publishing data to support the fight against human vector-borne diseases. 0.9863013698630136
+ Edmunds, Scott C; Fouque, Florence; Copas, Kyle A; Hirsch, Tim; Shimabukuro, Paloma Helena Fernandes; Andrade-filho, José Dilermando; Marceló, Catalina; Morales, Carlos Andrés; Lesmes, María Camila; Fuya, Patricia; Méndez, Sergio; Cadena, Horacio; Ávila-Díaz, Álvaro; Santamaría, Erika; Južnič-Zonta, Živko; Eritja, Roger; Palmer, John R B; Bartumeus, Frederic; dos Santos-Conceição, Maurício; Chahad-Ehlers, Samira; Silva-Inácio, Cássio Lázaro; Lozovei, Ana Leuch; de Andrade, Andrey José; Paull, Sara; Miranda, Miguel Ángel; Barceló, Carlos; Schaffner, Francis; Della-Torre, Alessandra; Brosens, Dimitri; Dekoninck, Wouter; Hendrickx, Guy; Van Bortel, Wim; Deblauwe, Isra; Smitz, Nathalie; Versteirt, Veerle; Godoy, Rodrigo Espindola; Brilhante, Andreia Fernandes; Ceccarelli, Soledad; Balsalobre, Agustín; Vicente, María Eugenia; Curtis-Robles, Rachel; Hamer, Sarah A; Landa, José Manuel Ayala; Rabinovich, Jorge E; Marti, Gerardo A; Schigel, Dmitry
+ Edmunds, S. C., F. Fouque, K. A. Copas, T. Hirsch, P. H. Fernandes Shimabukuro, J. D. Andrade-filho, C. Marceló, C. A. Morales, M. C. Lesmes, P. Fuya, S. Méndez, H. Cadena, A. Ávila-Díaz, E. Santamaría, .., S. Ceccarelli, A. Balsalobre, M. E. Vicente, R. Curtis-Robles, S. A. Hamer, J. M. Ayala Landa, J. E. Rabinovich, G. A. Marti and D. Schigel. 0.2678571428571429
+ 2022
+ 2022
+ -------
+
+------- 
+ 268
+ Seroprevalence of Trypanosoma cruzi in Eight Blood Banks in Mexico
+ Seroprevalence of Trypanosoma cruzi in Eight Blood Banks in Mexico. 0.9850746268656716
+ González-Guzmán, Saúl; González-Cano, Patricia; Bagu, Edward T.; Vázquez-Vega, Salvador; Martínez-Salazar, Martha; Juárez-Montiel, Margarita; Gutiérrez-Hoya, Adriana; Crescencio-Trujillo, José A.; Sánchez-Montes, Sokani; Fernández-Figueroa, Edith; Contreras-López, Erik A.; Guerra-Márquez, Ángel; Arroyo-Anduiza, Carla I.; Ángeles-Márquez, Laura E.; Rodríguez-Trejo, Eduardo; Bekker-Méndez, Carolina; Guerra-Castillo, Francisco X.; Regalado-Santiago, Citlalli; Tesoro-Cruz, Emiliano; Oviedo, Norma; Victoria-Jardón, Ana M.; Bautista-Olvera, Jesús; García-Ramírez, Pedro; Vázquez-Meraz, José E.; Contreras-Lozano, María C.; Castillo-Flores, Verónica S.; Guevara-Reyes, Rogelio; Girón-Sánchez, Alma R.; Arenas-Luis, HD.; Pecero-Hidalgo, María José; Ríos-Antonio, Emiliano; Ramírez-Pereda, Natividad; Martínez-Mora, Adalberto; Paredes-Cervantes, Vladimir
+ González-Guzmán, S., P. González-Cano, E. T. Bagu, S. Vázquez-Vega, M. Martínez-Salazar, M. Juárez-Montiel, A. Gutiérrez-Hoya, J. A. Crescencio-Trujillo, S. Sánchez-Montes, .., N Ramírez-Pereda, A. Martínez-Mora and V. Paredes-Cervantes. 0.24911868390129255
+ 2022
+ 2022
+ -------
+
+------- 
+ 269
+ Dynamics of Panstrongylus megistus infestation, the primary vector of Trypanosoma cruzi in Minas Gerais, Brazil
+ Dynamics of Panstrongylus megistus infestation, the primary vector of Trypanosoma cruzi in Minas Gerais, Brazil. 0.9910714285714286
+ Ferreira, Flávio Campos; Diotaiuti, Lileia Gonçalves; Belisário, Carlota Josefovicz
+ Campos Ferreira, F., L. Goncalves Diotaiuti and C. J. Belisario. 0.3373493975903614
+ 2022
+ 2022
+ -------
+
+------- 
+ 270
+ Molecular detection of blood meal source up to three months since the last meal: Experimental starvation resistance in triatomines
+ Molecular detection of blood meal source up to three months since the last meal: Experimental starvation resistance in triatomines. 0.9923664122137404
+ Pessanha, Thaila Santos; Pires, Marcelo; Iñiguez, Alena Mayo
+ Santos Pessanha , T., M. Pires and A. M. Iñiguez. 0.30000000000000004
+ 2022
+ 2022
+ -------
+
+------- 
+ 271
+ A dataset of proteins associated with Trypanosoma cruzi LYT1 mRNAs
+ A dataset of proteins associated with Trypanosoma cruzi LYT1 mRNAs. 0.9850746268656716
+ Márvez, Elizabeth Ruiz; Segura, César Augusto Ramírez; Requena, José María; Puerta, Concepción J.
+ Ruiz Márvez, E., C. A. Ramírez Segura, J. M. Requena and C. J. Puerta. 0.3402061855670103
+ 2022
+ 2022
+ -------
+
+------- 
+ 272
+ Chagas disease, COVID‐19 and P2X7 receptor
+ Chagas Disease, COVID-19 and P2X7 Receptor. 0.9534883720930233
+ Pereira, Caroline Souza Ferreira; Faria, Robson Xavier
+ Ferreira Pereira, C. S. and R. X. Faria. 0.2962962962962963
+ 2022
+ 2022
+ -------
+
+------- 
+ 273
+ Genomic surveillance: a potential shortcut for effective Chagas disease management
+ Genomic surveillance: a potential shortcut for effective Chagas disease management. 0.9879518072289156
+ de Azevedo, Sophia Lincoln Cardoso; Catanho, Marcos; Guimarães, Ana Carolina Ramos; Galvão, Teca Calcagno
+ Lincoln Cardoso de Azevedo, S., M. Catanho, A. C. Ramos Guimaraes and T. C. Galvao. 0.3142857142857143
+ 2022
+ 2022
+ -------
+
+------- 
+ 274
+ Antioxidant defence system as a rational target for Chagas disease and Leishmaniasis chemotherapy
+ Antioxidant defence system as a rational target for Chagas disease and Leishmaniasis chemotherapy. 0.9897959183673469
+ Santi, Ana Maria Murta; Murta/, Silvane Maria Fonseca
+ Murta Santi, A. M. and S. M. Fonseca Murta. 0.26415094339622647
+ 2022
+ 2022
+ -------
+
+------- 
+ 275
+ Chronic Chagas cardiomyopathy: characterization of cases and possibilities of action in primary healthcare
+ Chronic Chagas cardiomyopathy: characterization of cases and possibilities of action in primary healthcare. 0.9906542056074766
+ Peres, Tiago Augusto Fernandes; Oliveira, Stefan Vilges de; Gomes, Denner Custódio; Prado, Isabella Guzmán Núñez Del; Lima, Gabryella Londina Ribeiro; Soares, Layanne Cintra; Limongi, Jean Ezequiel
+ Fernandes Peres, T. A., S. Vilges de Oliveira, D. C. Gomes, I. G. Núñez del Prado, G. L. Ribeiro Lima, L. C. Soares and J. E. Limongi. 0.3401015228426396
+ 2022
+ 2022
+ -------
+
+------- 
+ 276
+ The history of Chagas disease: reflections on science in action
+ The history of Chagas disease: reflections on science in action. 0.984375
+ Kropf, Simone Petraglia; Lima, Nísia Trindade
+ Petraglia Kropf, S. and N. T. Lima. 0.2222222222222222
+ 2022
+ 2022
+ -------
+
+------- 
+ 277
+ Indeterminate Form of Chagas Disease: Some Immunological Insights
+ Indeterminate Form of Chagas Disease: Some Immunological Insights. 0.9848484848484849
+ Matos, Daniel Mazza; Viana, Carlos Eduardo Menezes; de Fátima Oliveira, Maria; Queiroz, José Ajax Nogueira
+ Mazza Matos, D., C. E. Menezes Viana, M. F. Oliveira and J. A. Nogueira Queiroz. 0.34905660377358494
+ 2022
+ 2022
+ -------
+
+------- 
+ 278
+ Peeking into the mysterious world of Trypanosoma cruzi and Chagas disease
+ Peeking into the mysterious world of Trypanosoma cruzi and Chagas disease. 0.9864864864864865
+ Macedo, Andréa M; Pena, Sérgio Dj
+ Macedo, A. M. and S. D. J. Pena. 0.33333333333333337
+ 2022
+ 2022
+ -------
+
+------- 
+ 279
+ Computational approaches towards the discovery and optimisation of cruzain inhibitors
+ Computational approaches towards the discovery and optimisation of cruzain inhibitors. 0.9883720930232558
+ Santos, Viviane Corrêa; Ferreira, Rafaela Salgado
+ Correa Santos, V. and R. Salgado Ferreira. 0.24489795918367352
+ 2022
+ 2022
+ -------
+
+------- 
+ 280
+ Sex in protists: A new perspective on the reproduction mechanisms of trypanosomatids
+ Sex in protists: A new perspective on the reproduction mechanisms of trypanosomatids. 0.9882352941176471
+ da Silva, Verônica Santana; Machado, Carlos Renato
+ Santana da Silva,V. and C. R. Machado. 0.26
+ 2022
+ 2022
+ -------
+
+------- 
+ 281
+ Roadblocks in Chagas disease care in endemic and nonendemic countries: Argentina, Colombia, Spain, and the United States. The NET-Heart project
+ Roadblocks in Chagas disease care in endemic and nonendemic countries: Argentina, Colombia, Spain, and the United States. The NET-Heart project. 0.9930555555555556
+ Miranda-Arboleda, Andrés F.; Zaidel, Ezequiel José; Marcus, Rachel; Pinazo, María Jesús; Echeverría, Luis Eduardo; Saldarriaga, Clara; Sosa Liprandi, Álvaro; Baranchuk, Adrián;      
+ Miranda-Arboleda, A. F., E. J. Zaidel, R. Marcus, M. J. Pinazo, L. E. Echeverria, C. Saldarriaga, A. Sosa Liprandi and  A. Baranchuk, on behalf of the Neglected Tropical Diseases and other Infectious Diseases affecting the Heart (NET-Heart) project. 0.29718875502008035
+ 2021
+ 2021
+ -------
+
+------- 
+ 282
+ Designation of the neotype of Triatoma dimidiata (Latreille, 1811) (Hemiptera, Reduviidae, Triatominae), with full integrated redescription including mitogenome and nuclear ITS-2 sequences
+ Designation of the neotype of Triatoma dimidiata (Latreille, 1811) (Hemiptera, Reduviidae, Triatominae), with full integrated redescription including mitogenome and nuclear ITS-2 sequences. 0.9947089947089947
+ Justi, Silvia Andrade; Dale, Carolina
+ Andrade Justi, S. and C. Dale. 0.2432432432432432
+ 2021
+ 2021
+ -------
+
+------- 
+ 283
+ The Association Between Physical Performance and Health-Related Quality of Life Based on the EuroQol 5-Dimensional Questionnaire in Patients With Chagas Disease
+ The Association Between Physical Performance and Health-Related Quality of Life Based on the EQ-5D-3L Questionnaire in Patients With Chagas Disease. 0.89375
+ Almeida Lins, Wylisson Marcelo; Tura, Bernardo Rangel; Kasal, Daniel Arthur
+ Lins, W. M. A., B. R. Tura and D. A. Kasal. 0.30666666666666664
+ 2021
+ 2021
+ -------
+
+------- 
+ 284
+ Cross-Sectional Study of Swallowing Phases in Cases of Megaesophagus Caused by Chagas Disease
+ Cross-Sectional Study of Swallowing Phases in Cases of Megaesophagus Caused by Chagas Disease. 0.9893617021276596
+ Gharib, Aretuza Zaupa Gasparim El; Dantas, Roberto Oliveira
+ El Gharib, A. Z. G. and R. Oliveira Dantas. 0.27118644067796616
+ 2021
+ 2021
+ -------
+
+------- 
+ 285
+ Interaction With the Extracellular Matrix Triggers Calcium Signaling in Trypanosoma cruzi Prior to Cell Invasion
+ Interaction With the Extracellular Matrix Triggers Calcium Signaling in Trypanosoma cruzi Prior to Cell Invasion. 0.9911504424778761
+ Varón, Nubia Carolina Manchola; dos Santos, Guilherme Rodrigo R. M.; Colli, Walter; Alves, Maria Julia M.
+ Manchola Varon, N. C., G. R.  R. M. dos Santos, W. Colli and M. J. M. Alves. 0.2952380952380952
+ 2021
+ 2021
+ -------
+
+------- 
+ 286
+ SYMPTOMS ASSOCIATED WITH DIFFERENT DEGREES OF MEGAESOPHAGUS IN CHAGAS DISEASE
+ Symptoms associated with different degrees of megaesophagus in Chagas disease. 0.9871794871794872
+ Oliveira, Jaline de Araujo; Gharib, Aretuza Zaupa Gasparim El; Dantas, Roberto Oliveira
+ de Araujo Oliveira, J., A. Z. G. El Gharib and R.Oliveira Dantas. 0.25287356321839083
+ 2021
+ 2021
+ -------
+
+------- 
+ 287
+ Re: “Orbital Cellulitis in Chagas Disease: An Unusual Presentation”
+ Reply re: Orbital Cellulitis in Chagas Disease: An Unusual Presentation. 0.8888888888888888
+ Moreno, Alejandro Marcel Hasslocher; Curi, Andre Luiz Land
+ Hernandez-Bogantes, E. and L. Wu. 0.2586206896551724
+ 2021
+ 2021
+ -------
+
+------- 
+ 288
+ Predictors of development of cardiac and digestive disorders among patients with indeterminate chronic Chagas Disease
+ Predictors of development of cardiac and digestive disorders among patients with indeterminate chronic Chagas Disease. 0.9915254237288136
+ da Costa, Erika Alessandra Pellison Nunes; Victória, Cassiano; Fortaleza, Carlos Magno Castelo Branco
+ Nunes da Costa, E. A. P., C. Victoria and C. M. C. Branco Fortaleza. 0.29702970297029707
+ 2021
+ 2021
+ -------
+
+------- 
+ 289
+ Serological reactivity against T. cruzi-derived antigens: Evaluation of their suitability for the assessment of response to treatment in chronic Chagas disease.
+ Serological reactivity against T. cruzi-derived antigens: evaluation of their suitability for the assessment of response to treatment in chronic Chagas disease. 1.0
+ Alonso-Padilla, Julio; López, Manuel Carlos; Esteva, Mónica; Zrein, Maan; Casellas, Aina; Gómez, Inmaculada; Granjon, Elodie; Méndez, Susana; Benítez, Celia; Ruiz, Andres Mariano; Sanz, Sergi; Gascón, Joaquim; Thomas, M Carmen; Pinazo, Maria-Jesus; Group, NHEPACHA Study; Abril, Marcelo; de Noya, Belkisyolé Alarcón; Jorge, Tania Araujo; Chatelain, Eric; Grijalva, Mario J.; Guhl, Felipe; Hasslocher-Moreno, Alejandro Marcel; Luquetti, Alejandro O.; Noya, Oscar; Ramsey, Janine M.; Ribeiro, Isabela; Longhi, Silvia A.; Schijman, Alejandro G.; Sosa-Estani, Sergio; Torrico, Faustino; Viotti, Rodolfo
+ Alonso-Padilla, J., M. C. Lopez, M. Esteva, M. Zrein, A. Casellas, I. Gomez, E. Granjon, S. Mendez, C. Benítez, A. M. Ruiz, S. Sanz, J. Gascon, M. C. Thomas and M.-J. Pinazo. 0.22909698996655514
+ 2021
+ 2021
+ -------
+
+------- 
+ 290
+ Identification and characterization of microsatellite markers for population genetic studies of Panstrongylus megistus (Burmeister, 1835) (Triatominae: Reduviidae)
+ Identification and characterization of microsatellite markers for population genetic studies of Panstrongylus megistus (Burmeister, 1835) (Triatominae: Reduviidae). 0.9939024390243902
+ Ferreira, Flávio Campos; Gonçalves, Leilane Oliveira; Ruiz, Jeronimo Conceição; Koerich, Leonardo Barbosa; Pais, Fabiano Sviatopolk Mirsky; Diotaiuti, Lileia Gonçalves; Belisário, Carlota Josefovicz
+ Campos Ferreira, F., L. Oliveira Goncalves, J. C. Ruiz, L. Barbosa Koerich, F. S. M. Pais, L. Goncalves Diotaiuti and C. J. Belisário. 0.3484848484848485
+ 2021
+ 2021
+ -------
+
+------- 
+ 291
+ The Association Between Physical Performance and Health-Related Quality of Life Based on the EuroQol 5-Dimensional Questionnaire in Patients With Chagas Disease
+ The Association Between Physical Performance and Health-Related Quality of Life Based on the EQ-5D-3L Questionnaire in Patients With Chagas Disease. 0.89375
+ Almeida Lins, Wylisson Marcelo; Tura, Bernardo Rangel; Kasal, Daniel Arthur
+ Lins, W. M. A., B. R. Tura and D. A. Kasal. 0.30666666666666664
+ 2021
+ 2021
+ -------
+
+------- 
+ 292
+ New regimens of benznidazole monotherapy and in combination with fosravuconazole for treatment of Chagas disease (BENDITA): a phase 2, double-blind, randomised trial
+ New regimens of benznidazole monotherapy and in combination with fosravuconazole for treatment of Chagas disease (BENDITA): a phase 2, double-blind, randomised trial. 0.9939759036144579
+ Torrico, Faustino; Gascón, Joaquim; Barreira, Fabiana; Blum, Bethania; Almeida, Igor C; Alonso-Vega, Cristina; Barboza, Tayná; Bilbe, Graeme; Correia, Erika; Garcia, Wilson; Ortiz, Lourdes; Parrado, Rudy; Ramirez, Juan Carlos; Ribeiro, Isabela; Strub-Wourgaft, Nathalie; Vaillant, Michel; Sosa-Estani, Sergio; group, BENDITA study; Arteaga, Roger; de la Barra, Anabelle; Borja, Jhonny Camacho; Martinez, Ivana; Fernandes, Jayme; Garcia, Lineth; Lozano, Daniel; Palacios, Alejandro; Schijman, Alejandro; Pinazo, Maria Jesus; Pinto, Jimmy; Rojas, Gimena; Estevao, Igor; Ortega-Rodriguez, Uriel; Mendes, Maria Tays; Schuck, Edgar; Hata, Katsura; Maki, Noritsugu; Asada, Makoto
+ Torrico, F., J. Gascón, F. Barreira, B. Blum, I. C. Almeida, C. Alonso-Vega, T. Barboza, G. Bilbe, E. Correia, W. Garcia, L. Ortiz, R. Parrado, J. C. Ramirez, I. Ribeiro, N. Strub-Wourgaft, M. Vaillant and S. Sosa-Estani. 0.2763744427934621
+ 2021
+ 2021
+ -------
+
+------- 
+ 293
+ Evaluation of two lateral flow rapid tests in the diagnosis of Chagas disease in the Washington Metropolitan Area
+ Evaluation of 2 Lateral Flow Rapid Tests in the Diagnosis of Chagas Disease in the Washington Metropolitan Area. 0.9646017699115044
+ Castro-Sesquen, Yagahira E; Saldaña, Antonella; Nava, Dhayanna Patino; Evans, Diana Paulette; Bayangos, Tabitha; DeToy, Kelly; Trevino, Alexia; Marcus, Rachel; Bern, Caryn; Gilman, Robert H; Talaat, Kawsar R; Avila, Carol; Camacho, Fabiola; Herrera, Sdenka; Jimenez, Andres; Lozano, Veronika; Malaga, Edith; Merida, Mariel; Morales, Carolina; Solis, Rodrigo; Sotomayor, Fiorella; Tung, Alisha; Spector, Anna; Verastegui, Manuela; Yang, Younghee; Zapata, Fatima
+ Castro-Sesquen, Y. E., A. Saldaña, D. Patino Nava, D. P. Evans, T. Bayangos, K. DeToy, A. Trevino, R. Marcus, C. Bern, R. H. Gilman and K. R. Talaat. 0.2543478260869565
+ 2021
+ 2021
+ -------
+
+------- 
+ 294
+ Poverty, Migration, and Chagas Disease
+ Poverty, migration, and chagas disease. 0.9743589743589743
+ Guhl, Felipe; Ramírez, Juan David
+ Guhl, F. and J. D. Ramírez. 0.303030303030303
+ 2021
+ 2021
+ -------
+
+------- 
+ 295
+ Factores de riesgos y nivel de conocimiento de la enfermedad de chagas en la parroquía Juan Gómez rendón, Guayas- Ecuador 2020
+ Factores de riesgos y nivel de conocimiento de la enfermedad de Chagas en la parroquia General Villamil, Guayas-Ecuador 2020. 0.8492063492063492
+ Escobar Suárez, Carlos Antonio; Espinosa, Lina; Blacio Villa, Carlos Omar; Cueva Moncayo, María Fernanda
+ Real-Cotto, J. J., H. E. Romero-Urréa, N. E. A. Altamirano y A.A. Villafuerte Fernández. 0.23076923076923073
+ 2021
+ 2021
+ -------
+
+------- 
+ 296
+ Habilidades Argumentativas en Profesores en Formación Continua: el Contexto de la Enfermedad de Chagas
+ Habilidades Argumentativas en Profesores en Formación Continua: el Contexto de la Enfermedad de Chagas. 0.9902912621359223
+ López, Tatiana Iveth Salazar; Taboada, Nallely Jiménez; Ramos, María Teresa Guerra
+ Salazar-López, T. I., N. Jiménez-Taboada and M. T. Guerra-Ramos. 0.25609756097560976
+ 2021
+ 2021
+ -------
