@@ -17,3 +17,7 @@ NO DATA LOST ON NORMALIZATION
 Levenshtain 80% (i variable inside is_similar function): 9972, acceptable difference of 1 record
 
 13749 (Records added from BEA into dimensions) + 9972 (Records duplicated) = 23721 (Total Records), acceptable difference of 2 records from dimensions
+
+NEW
+
+DUPLICATED RECORDS 8759

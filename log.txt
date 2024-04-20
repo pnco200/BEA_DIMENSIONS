@@ -1,0 +1,2 @@
+Ammount of duplicated records: 15
+Ammount of unique records: 85
