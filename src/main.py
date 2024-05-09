@@ -78,34 +78,37 @@ def fillDuplicated(dimensions_repeated_df):
     for index, row in dimensions_repeated_df.iterrows():
         for index2, row2 in bea_df.iterrows():
             if is_similar(row['DIM_Title_dim'], row2['BEA_title'], row['DIM_Authors_dim'], row2['BEA_authors'], row['DIM_PubYear_dim'], row2['BEA_year']):
-                #DIM_Rank,DIM_Authors,DIM_PubYear,DIM_Title,DIM_reference,DIM_Abstract,DIM_Funding,DIM_MeSH_terms,DIM_Publication_Type,DIM_Corresponding_Authors,DIM_Research_Organizations_._standardized,DIM_Country_of_standardized_research_organization,DIM_Funder,DIM_Funder_Group,DIM_Funder_Country,DIM_Times_cited,DIM_Recent_citations,DIM_RCR,DIM_Fields_of_Research_.ANZSRC_2020.,DIM_RCDC_Categories,DIM_HRCS_HC_Categories,DIM_HRCS_RAC_Categories,DIM_CSO_Categories
-                bea_df.at[index2, "DIM_Rank_dim"] = row["DIM_Rank_dim"]
-                bea_df.at[index2, "DIM_Authors_dim"] = row["DIM_Authors_dim"]
-                bea_df.at[index2, "DIM_Title_dim"] = row["DIM_Title_dim"]
-                bea_df.at[index2, "DIM_PubYear_dim"] = row["DIM_PubYear_dim"]
-                bea_df.at[index2, "DIM_Abstract_dim"] = row["DIM_Abstract_dim"]
-                bea_df.at[index2, "DIM_Funding_dim"] = row["DIM_Funding_dim"]
-                bea_df.at[index2, "DIM_MeSH_terms_dim"] = row["DIM_MeSH_terms_dim"]
-                #bea_df.at[index2, "DIM_Publication_Type"] = row["DIM_Publication_Type"]
-                bea_df.at[index2, "DIM_Corresponding_Authors_dim"] = row["DIM_Corresponding_Authors_dim"]
-                bea_df.at[index2, "DIM_Research_Organizations_._standardized_dim"] = row["DIM_Research_Organizations_._standardized_dim"]
-                bea_df.at[index2, "DIM_Country_of_standardized_research_organization_dim"] = row["DIM_Country_of_standardized_research_organization_dim"]
-                bea_df.at[index2, "DIM_Funder_dim"] = row["DIM_Funder_dim"]
-                bea_df.at[index2, "DIM_Funder_Group_dim"] = row["DIM_Funder_Group_dim"]
-                bea_df.at[index2, "DIM_Funder_Country_dim"] = row["DIM_Funder_Country_dim"]
-                bea_df.at[index2, "DIM_Times_cited_dim"] = row["DIM_Times_cited_dim"]
-                bea_df.at[index2, "DIM_Recent_citations_dim"] = row["DIM_Recent_citations_dim"]
-                bea_df.at[index2, "DIM_RCR_dim"] = row["DIM_RCR_dim"]
-                bea_df.at[index2, "DIM_Fields_of_Research_.ANZSRC_2020._dim"] = row["DIM_Fields_of_Research_.ANZSRC_2020._dim"]
-                bea_df.at[index2, "DIM_RCDC_Categories_dim"] = row["DIM_RCDC_Categories_dim"]
-                bea_df.at[index2, "DIM_HRCS_HC_Categories_dim"] = row["DIM_HRCS_HC_Categories_dim"]
-                bea_df.at[index2, "DIM_HRCS_RAC_Categories_dim"] = row["DIM_HRCS_RAC_Categories_dim"]
-                bea_df.at[index2, "DIM_CSO_Categories_dim"] = row["DIM_CSO_Categories_dim"]
-                bea_df.at[index2, "DIM_FCR_dim"] = row["DIM_FCR_dim"]
-                bea_df.at[index2, "DIM_Pagination_dim"] = row["DIM_Pagination_dim"]
-                bea_df.at[index2, "DIM_Issue_dim"] = row["DIM_Issue_dim"]
-                bea_df.at[index2, "DIM_Volume_dim"] = row["DIM_Volume_dim"]
-                bea_df.at[index2, "DIM_Source_title_dim"] = row["DIM_Source_title_dim"]
+                #DIM_Case_dim,DIM_Rank_dim,DIM_Title_dim,DIM_Abstract_dim,DIM_Funding_dim,DIM_Source_title_dim,DIM_MeSH_terms_dim,DIM_PubYear_dim,DIM_Volume_dim,DIM_Issue_dim,DIM_Pagination_dim,DIM_Authors_dim,DIM_Authors_.Raw_Affiliation._dim,DIM_Corresponding_Authors_dim,DIM_Authors_Affiliations_dim,DIM_Research_Organizations_._standardized_dim,DIM_Country_of_standardized_research_organization_dim,DIM_Funder_dim,DIM_Funder_Group_dim,DIM_Funder_Country_dim,DIM_Times_cited_dim,DIM_Recent_citations_dim,DIM_RCR_dim,DIM_FCR_dim,DIM_Fields_of_Research_.ANZSRC_2020._dim,DIM_RCDC_Categories_dim,DIM_HRCS_HC_Categories_dim,DIM_HRCS_RAC_Categories_dim,DIM_CSO_Categories_dim
+                bea_df.at[index2, 'DIM_Case_dim'] = row['DIM_Case_dim']
+                bea_df.at[index2, 'DIM_Rank_dim'] = row['DIM_Rank_dim']
+                bea_df.at[index2, 'DIM_Title_dim'] = row['DIM_Title_dim']
+                bea_df.at[index2, 'DIM_Abstract_dim'] = row['DIM_Abstract_dim']
+                bea_df.at[index2, 'DIM_Funding_dim'] = row['DIM_Funding_dim']
+                bea_df.at[index2, 'DIM_Source_title_dim'] = row['DIM_Source_title_dim']
+                bea_df.at[index2, 'DIM_MeSH_terms_dim'] = row['DIM_MeSH_terms_dim']
+                bea_df.at[index2, 'DIM_PubYear_dim'] = row['DIM_PubYear_dim']
+                bea_df.at[index2, 'DIM_Volume_dim'] = row['DIM_Volume_dim']
+                bea_df.at[index2, 'DIM_Issue_dim'] = row['DIM_Issue_dim']
+                bea_df.at[index2, 'DIM_Pagination_dim'] = row['DIM_Pagination_dim']
+                bea_df.at[index2, 'DIM_Authors_dim'] = row['DIM_Authors_dim']
+                bea_df.at[index2, 'DIM_Authors_.Raw_Affiliation._dim'] = row['DIM_Authors_.Raw_Affiliation._dim']
+                bea_df.at[index2, 'DIM_Corresponding_Authors_dim'] = row['DIM_Corresponding_Authors_dim']
+                bea_df.at[index2, 'DIM_Authors_Affiliations_dim'] = row['DIM_Authors_Affiliations_dim']
+                bea_df.at[index2, 'DIM_Research_Organizations_._standardized_dim'] = row['DIM_Research_Organizations_._standardized_dim']
+                bea_df.at[index2, 'DIM_Country_of_standardized_research_organization_dim'] = row['DIM_Country_of_standardized_research_organization_dim']
+                bea_df.at[index2, 'DIM_Funder_dim'] = row['DIM_Funder_dim']
+                bea_df.at[index2, 'DIM_Funder_Group_dim'] = row['DIM_Funder_Group_dim']
+                bea_df.at[index2, 'DIM_Funder_Country_dim'] = row['DIM_Funder_Country_dim']
+                bea_df.at[index2, 'DIM_Times_cited_dim'] = row['DIM_Times_cited_dim']
+                bea_df.at[index2, 'DIM_Recent_citations_dim'] = row['DIM_Recent_citations_dim']
+                bea_df.at[index2, 'DIM_RCR_dim'] = row['DIM_RCR_dim']
+                bea_df.at[index2, 'DIM_FCR_dim'] = row['DIM_FCR_dim']
+                bea_df.at[index2, 'DIM_Fields_of_Research_.ANZSRC_2020._dim'] = row['DIM_Fields_of_Research_.ANZSRC_2020._dim']
+                bea_df.at[index2, 'DIM_RCDC_Categories_dim'] = row['DIM_RCDC_Categories_dim']
+                bea_df.at[index2, 'DIM_HRCS_HC_Categories_dim'] = row['DIM_HRCS_HC_Categories_dim']
+                bea_df.at[index2, 'DIM_HRCS_RAC_Categories_dim'] = row['DIM_HRCS_RAC_Categories_dim']
+                bea_df.at[index2, 'DIM_CSO_Categories_dim'] = row['DIM_CSO_Categories_dim']
+                bea_df.at[index2, 'lang'] = row['lang']
     return True
 
 #Concatenates bea with the unique records of dimensions and exports the final dataset
@@ -124,6 +127,7 @@ def finish(dimensions_only_df):
     merged_df[int_columns] = merged_df[int_columns].astype(int)
 
     merged_df = merged_df.replace(0, pd.NA)
+
     # Get the current date and time
     now = datetime.datetime.now()
 
