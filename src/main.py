@@ -46,6 +46,7 @@ def is_similar(title1, title2, auth1, auth2, year1, year2, threshold_title=0.8, 
     if(year1 == year2):
         if similarity_ratio_title >= threshold_title:
             if similarity_ratio_authors >= threshold_authors:
+                print("Title similarity: ", similarity_ratio_title, "Title1: ", title1, " Title2: ")
                 return True
     return False
         

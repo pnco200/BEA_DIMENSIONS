@@ -1,2 +1,2 @@
-Ammount of duplicated records: 19
-Ammount of unique records: 769
+Ammount of duplicated records: 6924
+Ammount of unique records: 9432
